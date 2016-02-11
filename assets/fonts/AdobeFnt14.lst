@@ -1,0 +1,158 @@
+%!Adobe-FontList 1.14
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:217280
+FileModTime:1452985111
+DesignSize:110
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:OpenSans-Bold
+FamilyName:Open Sans
+StyleName:Bold
+MenuName:Open Sans
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Open Sans Bold
+WritingScript:Roman
+OutlineFileName:\OpenSans-Bold.ttf
+DataFormat:sfntData
+FileLength:224592
+FileModTime:1431953214
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:OpenSans-Light
+FamilyName:Open Sans
+StyleName:Light
+MenuName:Open Sans Light
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Open Sans Light
+WritingScript:Roman
+OutlineFileName:\OpenSans-Light.ttf
+DataFormat:sfntData
+FileLength:222412
+FileModTime:1431953214
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:OpenSans
+FamilyName:Open Sans
+StyleName:Regular
+MenuName:Open Sans
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Open Sans
+WritingScript:Roman
+OutlineFileName:\OpenSans-Regular.ttf
+DataFormat:sfntData
+FileLength:217360
+FileModTime:1431953214
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:OpenSans-Semibold
+FamilyName:Open Sans
+StyleName:Semibold
+MenuName:Open Sans Semibold
+StyleBits:0
+WeightClass:600
+WidthClass:5
+AngleClass:0
+FullName:Open Sans Semibold
+WritingScript:Roman
+OutlineFileName:\OpenSans-Semibold.ttf
+DataFormat:sfntData
+FileLength:221328
+FileModTime:1431953214
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoSlab-Bold
+FamilyName:Roboto Slab
+StyleName:Bold
+MenuName:Roboto Slab
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Roboto Slab Bold
+WritingScript:Roman
+OutlineFileName:\RobotoSlab-Bold.ttf
+DataFormat:sfntData
+FileLength:170616
+FileModTime:1373990780
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoSlab-Light
+FamilyName:Roboto Slab
+StyleName:Light
+MenuName:Roboto Slab
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Roboto Slab Light
+WritingScript:Roman
+OutlineFileName:\RobotoSlab-Light.ttf
+DataFormat:sfntData
+FileLength:179096
+FileModTime:1373990780
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoSlab-Regular
+FamilyName:Roboto Slab
+StyleName:Regular
+MenuName:Roboto Slab
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Roboto Slab Regular
+WritingScript:Roman
+OutlineFileName:\RobotoSlab-Regular.ttf
+DataFormat:sfntData
+FileLength:169064
+FileModTime:1373990780
+%EndFont
+
