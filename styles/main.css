@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  line-height: 100px;
+  background: -webkit-linear-gradient(top, rgba(180,180,180,1), rgba(255,255,255, 1));
+}
+
+.header .logo{
+  height: 70%;
+  margin-left: 7%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.navbar{
+  position: absolute;
+  right: 8%;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+@media (max-width: 840px) {
+  .header .logo{
+    margin-left: 1%;
+  }
+  .navbar{
+    right: 2%;
+  }
+}
+
+.navbar li{
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.navbar li a{
+  color: #fff;
+  text-decoration: none;
+}
+
