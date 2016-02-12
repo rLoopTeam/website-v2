@@ -42,7 +42,7 @@
   display: inline-block;
   text-transform: uppercase;
   color: #fff;
-  font-family: 'open_sans', Helvetica, Arial, sans-serif
+  font-family: 'open_sans', Helvetica, Arial, sans-serif;
 }
 
 @media (max-width: 840px) {
@@ -86,3 +86,43 @@ img{
   max-height: 100%;
 }
 
+.footer{
+  display: inline-block;
+  height: 140px;
+  width: 100%;
+  background-color: #404040;
+  text-align: center;
+  color: #fff;
+  font-family: 'open_sans_light', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+}
+
+.footer-container{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  margin-top: 45px;
+}
+
+.footer .logo{
+  vertical-align: middle;
+  display: inline-block;
+  height: 50px;
+}
+.footer .contact-info{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 7% 0 7%;
+}
+
+.footer .follow-us{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer h3{
+  text-transform: uppercase;
+  font-family: 'open_sans', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
