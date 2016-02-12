@@ -125,4 +125,25 @@ img{
   text-transform: uppercase;
   font-family: 'open_sans', Helvetica, Arial, sans-serif;
   font-size: 14px;
+  padding-bottom: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.footer a{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: white;
+  transition: background-color 0.3s ease;
+  transition: color 0.3s ease;
+  border-radius: 12px;
+  padding: 3px;
+}
+.footer a.middle{
+  margin: 0px 8px;
+}
+.footer a:hover{
+  color: #404040;
+  background-color: white;
 }
