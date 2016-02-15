@@ -114,10 +114,17 @@
   font-family: 'roboto_slab_light', Helvetica, Arial, sans-serif;
   font-size: 270%;
   /*to avoid header*/
-  padding: 135px 15% 0 15%;
+  padding: 150px 15% 0 15%;
 }
 .megatext strong{
   font-family: 'roboto_slab_bold', Helvetica, Arial, sans-serif;
+}
+
+@media (max-width: 840px) {
+  .megatext{
+    font-size: 200%;
+    padding: 100px 10% 0 10%;
+  }
 }
 
 img{
