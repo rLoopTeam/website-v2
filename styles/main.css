@@ -62,6 +62,12 @@
 .navbar li a{
   color: #fff;
   text-decoration: none;
+  transition: text-shadow 0.2s, color 0.2s;
+}
+
+.navbar li a:hover{
+  text-shadow: #404040 0 0 15px;
+  color: #404040;
 }
 
 .main-content{
