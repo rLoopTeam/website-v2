@@ -111,6 +111,11 @@
   width: 100%;
 }
 
+/*this is to accommodate for the header*/
+.top-subheader .megatext{
+  padding-top: 50px;
+}
+
 .megatext{
   color: #fff;
   font-family: 'roboto_slab_light', Helvetica, Arial, sans-serif;
