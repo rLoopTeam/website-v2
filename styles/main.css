@@ -95,15 +95,17 @@
   width: 100%;
 }
 
+.half-page{
+  height: 50vh;
+}
+
 .top-subheader{
   background: url('../assets/images/rLoop.74.jpg');
   background-size: cover;
   text-align: center;
+  min-height: 330px;
 }
 
-.half-page{
-  height: 50vh;
-}
 
 .top-subheader .color-layer{
   background-color: rgba(0, 176, 224, 0.6);
