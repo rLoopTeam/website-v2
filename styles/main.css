@@ -97,15 +97,21 @@
 
 .top-subheader{
   background: url('../assets/images/rLoop.74.jpg');
-  height: 55vh;
   background-size: cover;
   text-align: center;
+}
+
+.half-page{
+  height: 50vh;
 }
 
 .top-subheader .color-layer{
   background-color: rgba(0, 176, 224, 0.6);
   height: 100%;
   width: 100%;
+}
+
+.top-subheader .megatext{
   padding-top: 150px;
 }
 
@@ -121,7 +127,7 @@
 }
 
 @media (max-width: 840px) {
-  .top-subheader .color-layer{
+  .top-subheader .megatext{
     padding-top: 100px;
   }
 
