@@ -99,6 +99,7 @@
   background: url('../assets/images/rLoop.74.jpg');
   height: 55vh;
   background-size: cover;
+  text-align: center;
 }
 
 .top-subheader .color-layer{
@@ -106,6 +107,17 @@
   height: 100%;
   width: 100%;
   /*padding-top: 120px;*/
+}
+
+.megatext{
+  color: #fff;
+  font-family: 'roboto_slab_light', Helvetica, Arial, sans-serif;
+  font-size: 270%;
+  /*to avoid header*/
+  padding: 135px 15% 0 15%;
+}
+.megatext strong{
+  font-family: 'roboto_slab_bold', Helvetica, Arial, sans-serif;
 }
 
 img{
