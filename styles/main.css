@@ -143,12 +143,12 @@
   -moz-box-sizing: border-box;
   padding: 0 20% 0 20%;
   color: rgb(77, 77, 77);
-  min-height: 275px;
+  min-height: 350px;
 }
 
 @media (max-width: 840px) {
   .content-div{
-    padding: 0 5% 0 5%;
+    padding: 0 10% 0 10%;
   }
 }
 
