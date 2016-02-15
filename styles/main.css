@@ -36,6 +36,12 @@
   padding: 0;
 }
 
+/* utility */
+.text-centered {
+  text-align: center;
+  width: 100%;
+}
+
 /* header */
 
 .header{
@@ -98,7 +104,12 @@
 .half-page{
   height: 50vh;
 }
-
+.three-quarter-page{
+  height: 75vh;
+}
+.full-page{
+  height: 75vh;
+}
 .top-subheader{
   background: url('../assets/images/rLoop.74.jpg');
   background-size: cover;
@@ -111,6 +122,15 @@
   background-color: rgba(0, 176, 224, 0.6);
   height: 100%;
   width: 100%;
+}
+
+.links-list a {
+    float: left;
+}
+
+a.text-normal {
+  color: rgb(134, 171, 230);
+    text-decoration: none;
 }
 
 /*this is to accommodate for the header*/
