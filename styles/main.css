@@ -1,3 +1,5 @@
+/* fonts & global */
+
 @font-face {
   font-family: 'open_sans_light';
   src: url('../assets/fonts/OpenSans-Light.ttf') format('truetype');
@@ -13,11 +15,28 @@
   src: url('../assets/fonts/OpenSans-Bold.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'roboto_slab_light';
+  src: url('../assets/fonts/RobotoSlab-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'roboto_slab';
+  src: url('../assets/fonts/RobotoSlab-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'roboto_slab_bold';
+  src: url('../assets/fonts/RobotoSlab-Bold.ttf') format('truetype');
+}
+
 *{
   /*font-family: 'open_sans', Helvetica, Arial, sans-serif;*/
   margin: 0;
   padding: 0;
 }
+
+/* header */
 
 .header{
   position: absolute;
@@ -70,6 +89,8 @@
   color: #404040;
 }
 
+/* main content */
+
 .main-content{
   width: 100%;
 }
@@ -91,6 +112,8 @@ img{
   max-width:100%;
   max-height: 100%;
 }
+
+/* footer */
 
 .footer{
   display: inline-block;
