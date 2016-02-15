@@ -219,6 +219,12 @@ img{
   color: white;
 }
 
+@media (max-width: 840px) {
+  .group-image{
+    background-position: -100px 0px;
+  }
+}
+
 /* footer */
 
 .footer{
