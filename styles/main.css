@@ -265,8 +265,9 @@ img{
   background-repeat: no-repeat; 
 }
 .member {
-  width: 300px;
+  width: 350px;
   height: 120px;
+  float: left;
 }
 
 .team .member .profile-image-wrapper {
@@ -281,14 +282,23 @@ img{
 }
 .team .member .info {
   float: left;
+  margin-top: 15px;
 }
-
-.team .member .info .name  {
-
+.team .member .info p{
+  text-align: left;
 }
-.team .member .info .details  {
+.team .member .info p:nth-child(1){
+  font-size: 115%;
+  font-weight: 900;
 }
-
+.team .member .info p strong{
+  text-align: left;
+  font-size: 90%;
+}
+.team .member .info p i{
+  font-weight: normal;
+  font-size: 100%;
+}
 .content-div.partnership {
   background-image: url('../assets/images/partnership.png'); 
   background-size: 100%; 
