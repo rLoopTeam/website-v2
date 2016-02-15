@@ -106,7 +106,7 @@
   background-color: rgba(0, 176, 224, 0.6);
   height: 100%;
   width: 100%;
-  /*padding-top: 120px;*/
+  padding-top: 150px;
 }
 
 .megatext{
@@ -114,16 +114,22 @@
   font-family: 'roboto_slab_light', Helvetica, Arial, sans-serif;
   font-size: 270%;
   /*to avoid header*/
-  padding: 150px 15% 0 15%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 .megatext strong{
   font-family: 'roboto_slab_bold', Helvetica, Arial, sans-serif;
 }
 
 @media (max-width: 840px) {
+  .top-subheader .color-layer{
+    padding-top: 100px;
+  }
+
   .megatext{
     font-size: 200%;
-    padding: 100px 10% 0 10%;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 }
 
