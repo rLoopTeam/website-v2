@@ -233,6 +233,10 @@ a.text-normal {
   min-height: 350px;
 }
 
+.content-div.our-mission{
+  min-height: 700px;
+}
+
 .content-div h1{
   font-family: 'roboto_slab_light', Helvetica, Arial, sans-serif;
   font-size: 220%;
@@ -243,6 +247,11 @@ a.text-normal {
   font-family: 'open_sans_light', Helvetica, Arial, sans-serif;
   font-size: 140%;
   margin-bottom: 3%;
+}
+
+.content-div .list-header{
+  font-family: 'open_sans', Helvetica, Arial, sans-serif;
+  font-size: 140%;
 }
 
 .content-div h2{
@@ -256,6 +265,11 @@ a.text-normal {
   margin-bottom: 2.5%;
 }
 
+.content-div ul{
+  margin-bottom: 2.5%;
+  margin-left: 19px;
+}
+
 .content{
   margin: 0 auto 0 auto;
   position: relative;
@@ -263,6 +277,17 @@ a.text-normal {
 
 .content.text{
   max-width: 900px;
+}
+
+.content .half{
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  width: 49vw;
+  max-width: 49vw;
+  padding: 0px 4%;
+  text-align: left;
+  margin-top: 10px;
 }
 
 .content.middle{
@@ -285,8 +310,22 @@ a.text-normal {
   }
 }
 
+.button-large{
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #404040;
+  border: 2px solid #404040;
+  padding: 9px 15px;
+  transition: background-color 0.2s, color 0.2s;
+}
+.button-large:hover{
+  color: #fff;
+  background-color: #404040;
+}
+
 img{
-  max-width:100%;
+  max-width: 100%;
   max-height: 100%;
 }
 
