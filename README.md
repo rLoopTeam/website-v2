@@ -10,12 +10,13 @@ For now its just plain HTML, CSS and JS. We didn't know who was familiar with wh
 
 These will probably change, and we will work together on some.
 
-* Front page: Keksike
-* Hyperloop page: gordon13
-* Team page: gordon13
-* News page: ImAPyromaniac
-* Shop page: KachanAleksey 
-* Contact page: -
+### Pages
+* Frontpage ("rloop"): Keksike
+* Hyperloop: gordon13
+* Team: gordon13
+* News: ImAPyromaniac
+* Shop: KachanAleksey 
+* Contact: -
 
 
 If you have questions ask them on Slack #webdev. Apparently I'm (Keksike) running the development at this moment, so you can PM me too.
