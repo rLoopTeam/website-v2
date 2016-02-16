@@ -36,13 +36,19 @@
   padding: 0;
 }
 
+/*///////////////*/
 /* utility */
+/*///////////////*/
 .text-centered {
   text-align: center;
   width: 100%;
 }
 .clearBoth { 
   clear:both; 
+}
+.clearfix {
+    display: inline-block;
+    width: 100%;
 }
 
 /* header */
@@ -260,21 +266,37 @@ img{
 }
 
 /* our team */
+.content.team {
+  padding: 50px 20px 50px 20px;
+}
 .team-top {
   /*assets/images/rloop-psfk.com_.png-1.jpg*/
-  background-image: url('../assets/images/rloop-psfk.com_.png-1.jpg'); 
-  background-size: 100%; 
+  background-image: -webkit-linear-gradient(top,  rgba(125,185,232,0) 65%,rgba(30,87,153,1) 100%), url('../assets/images/rloop-psfk.com_.png-1.jpg'); 
+  background-size: initial; 
   background-repeat: no-repeat; 
+  background-position: 50%;
+  text-align: center;
+  min-height: 330px;
+  background-color: black;
+
+
+/*background: -moz-linear-gradient(top,  rgba(125,185,232,0) 0%, rgba(30,87,153,1) 100%);
+background: -webkit-linear-gradient(top,  rgba(125,185,232,0) 0%,rgba(30,87,153,1) 100%);
+background: linear-gradient(to bottom,  rgba(125,185,232,0) 0%,rgba(30,87,153,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#1e5799',GradientType=0 );
+*/
+}
+.top-content {
+    padding: 30px 15% 30px 15%;
 }
 .member {
-  width: 300px;
-  height: 120px;
+  width: 350px;
+  height: 100px;
   float: left;
 }
-
 .team .member .profile-image-wrapper {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   overflow: hidden;
   float: left;
@@ -307,6 +329,7 @@ img{
   background-repeat: no-repeat;
   background-size: contain;
   background-position-x: 50%;
+  min-height: none;
 }
 
 
