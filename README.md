@@ -15,6 +15,7 @@ These will probably change, and we will work together on some.
 * Team page: gordon13
 * News page: ImAPyromaniac
 * Shop page: KachanAleksey 
+* Contact page: -
 
 
 If you have questions ask them on Slack #webdev. Apparently I'm (Keksike) running the development at this moment, so you can PM me too.
