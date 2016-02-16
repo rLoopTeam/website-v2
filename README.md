@@ -17,4 +17,4 @@ These will probably change, and we will work together on some.
 * Shop page: KachanAleksey 
 
 
-If you have questions ask them on Slack #webdev. Apparently me (Keksike) is running the development at this moment, so you can PM me too.
+If you have questions ask them on Slack #webdev. Apparently I'm (Keksike) running the development at this moment, so you can PM me too.
