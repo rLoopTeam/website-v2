@@ -31,7 +31,7 @@
 }
 
 *{
-  /*font-family: 'open_sans', Helvetica, Arial, sans-serif;*/
+  font-family: 'open_sans', Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -165,6 +165,7 @@
 }
 .full-page{
   height: 100vh;
+  min-height: 100vh;
 }
 .two-thirds-page{
   height: 67vh;
