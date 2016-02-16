@@ -292,7 +292,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', e
 .member {
   width: 350px;
   height: 100px;
-  float: left;
+  display: inline-block;
+  vertical-align: top;
 }
 .team .member .profile-image-wrapper {
   width: 100px;
