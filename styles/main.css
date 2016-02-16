@@ -255,6 +255,7 @@ img{
   background-repeat: no-repeat; 
   background-size: contain;
   background-position-x: 50%;  
+  background-color: #C5EAF9;
 }
 
 /* our team */
@@ -265,7 +266,7 @@ img{
   background-repeat: no-repeat; 
 }
 .member {
-  width: 350px;
+  width: 300px;
   height: 120px;
   float: left;
 }
@@ -300,11 +301,11 @@ img{
   font-size: 100%;
 }
 .content-div.partnership {
-  background-image: url('../assets/images/partnership.png'); 
-  background-size: 100%; 
+  background-image: url('../assets/images/partnership.png'), -webkit-linear-gradient(top, #1A77B9 0%, #00BDEC 29%, #00BCEA 95%, #01B3DE 100%);
+  background-size: 100%;
   background-repeat: no-repeat;
   background-size: contain;
-  background-position-x: 50%; 
+  background-position-x: 50%;
 }
 
 
