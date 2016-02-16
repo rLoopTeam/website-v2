@@ -203,8 +203,9 @@ a.text-normal {
 }
 
 .content{
-  margin: 0 20% 0 20%;
+  margin: 0 auto 0 auto;
   position: relative;
+  max-width: 1200px;
 }
 
 .content.middle{
