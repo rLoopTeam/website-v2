@@ -109,6 +109,7 @@
   display: none;
 }
 
+/* hamburger-menu, this needs some reworking to look good */
 @media (max-width: 840px) {
   .navbar{
     right: 5%;
@@ -257,6 +258,9 @@ a.text-normal {
 .content{
   margin: 0 auto 0 auto;
   position: relative;
+}
+
+.content.text{
   max-width: 900px;
 }
 
