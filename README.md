@@ -12,8 +12,8 @@ These will probably change, and we will work together on some.
 
 ### Pages
 * Frontpage ("rloop"): Keksike
-* Hyperloop: gordon13
-* Team: gordon13
+* Hyperloop (mostly done): -
+* Team (mostly done): -
 * News: ImAPyromaniac
 * Shop: KachanAleksey 
 * Contact: -
