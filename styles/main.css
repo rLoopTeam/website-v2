@@ -49,6 +49,7 @@
 .clearfix {
     display: inline-block;
     width: 100%;
+    margin-bottom: 30px;
 }
 
 /* header */
