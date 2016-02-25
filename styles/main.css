@@ -164,7 +164,7 @@
   height: 75vh;
 }
 .full-page{
-  height: 100vh;
+  height: 98vh;
   min-height: 100vh;
 }
 .two-thirds-page{
@@ -244,7 +244,7 @@ a.text-normal {
 .content-div h1{
   font-family: 'roboto_slab_light', Helvetica, Arial, sans-serif;
   font-size: 220%;
-  margin-bottom: 3.5%;
+  margin-bottom: 2%;
 }
 
 .content-div h3{
@@ -298,6 +298,13 @@ a.text-normal {
 }
 .content .half.right{
   padding: 0 4% 0 1%;
+}
+
+.content .half img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 350px;
 }
 
 @media (max-width: 840px) {
