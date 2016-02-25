@@ -159,25 +159,34 @@
 
 .half-page{
   height: 50vh;
+  min-height: 50vh;
 }
 .three-quarter-page{
   height: 75vh;
 }
 .full-page{
-  height: 98vh;
-  min-height: 100vh;
+  height: 99vh;
 }
 .two-thirds-page{
   height: 67vh;
 }
 
 .top-subheader{
-  background: url('../assets/images/rLoop.74.jpg');
-  background-size: cover;
   text-align: center;
-  min-height: 330px;
+  min-height: 100%;
 }
 
+.front-page .top-subheader{
+  background: url('../assets/images/shutterstock_90095539.jpg');
+  background-size: cover;
+  background-position: 0px -100px;
+}
+
+@media (max-width: 840px) {
+  .front-page .top-subheader{
+    background-position: 0px 0px;
+  }
+}
 
 .color-layer.light-blue{
   background-color: rgba(0, 176, 224, 0.6);
