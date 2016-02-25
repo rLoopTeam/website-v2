@@ -43,8 +43,8 @@
   text-align: center;
   width: 100%;
 }
-.clearBoth { 
-  clear:both; 
+.clearBoth {
+  clear:both;
 }
 .clearfix {
     display: inline-block;
@@ -186,6 +186,17 @@
 @media (max-width: 840px) {
   .front-page .top-subheader{
     background-position: 0px 0px;
+  }
+}
+
+.hyperloop .top-subheader{
+  background: url('../assets/images/rLoop.74.jpg');
+  background-size: cover;
+}
+
+@media (max-width: 840px) {
+  .hyperloop .top-subheader{
+    background-position: -80px 0px;
   }
 }
 
