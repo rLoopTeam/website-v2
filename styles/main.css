@@ -166,7 +166,7 @@
   height: 75vh;
 }
 .full-page{
-  height: 99vh;
+  height: 100vh;
 }
 .two-thirds-page{
   height: 67vh;
@@ -180,13 +180,7 @@
 .front-page .top-subheader{
   background: url('../assets/images/shutterstock_90095539.jpg');
   background-size: cover;
-  background-position: 0px -100px;
-}
-
-@media (max-width: 840px) {
-  .front-page .top-subheader{
-    background-position: 0px 0px;
-  }
+  background-position: 50% -100px;
 }
 
 .hyperloop .top-subheader{
@@ -302,7 +296,7 @@ a.text-normal {
 
 
 .content.text{
-  max-width: 900px;
+  max-width: 700px;
 }
 
 .content .half{
@@ -388,6 +382,8 @@ img{
   background-size: cover;
   background-position: 0px -130px;
   color: white;
+  background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
 }
 
 @media (max-width: 840px) {
@@ -411,6 +407,23 @@ img{
   display: inline-block;
 }
 
+.front-page .megatext {
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 375%;
+}
+.front-page .content.text {
+  max-width: 750px;
+}
+
+.our-mission .half.left,
+.our-mission .half.right {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.our-mission a {
+  margin-top: 20px;
+}
 @media (max-width: 840px) {
   .image-spacer{
     display: none;
