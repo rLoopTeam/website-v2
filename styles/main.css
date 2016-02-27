@@ -523,6 +523,50 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', e
   min-height: none;
 }
 
+/*///////////////*/
+/* press */
+/*///////////////*/
+
+.press-title {
+    height: 35vh;
+}
+
+.press-reports {
+  max-width: 1600px;
+  margin: 5px auto 5px auto;
+  padding: 5px 20px 5px 20px;
+  border: solid black 1px;
+}
+
+.press-reports .report {
+  border: solid #A7A7A7 1px;
+  border-top: solid 10px;
+  display: inline-block;
+  margin: 1%;
+  padding-top: 30px;
+  box-shadow: rgb(132, 130, 130) 1px 1px 2px;
+  text-align: center;
+  background-color: #FBF9F9;
+  float: left;
+}
+
+.press-reports .report img {
+  display: inline-block;
+  margin: 0 auto; 
+  margin-bottom: 20px;
+  max-height: 80px;
+}
+
+.press-reports .report .text {
+  background-color: white;
+  text-align: left;
+  padding: 10px 30px 30px 30px;
+  height: 100px;
+}
+
+
+
+
 /* footer */
 
 .footer{
