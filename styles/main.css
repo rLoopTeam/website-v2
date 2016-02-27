@@ -544,6 +544,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', e
 
 .press-title {
     height: 35vh;
+    background-image: url('../assets/images/hyperloop-award-signed-by-elon-musk.jpg');
+    background-size: cover;
+    background-position: 50% 20%;
+    background-repeat: no-repeat;
 }
 
 .press-reports {
