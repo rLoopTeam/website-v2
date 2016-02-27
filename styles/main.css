@@ -191,7 +191,7 @@
 
 @media (max-width: 840px) {
   .hyperloop .top-subheader{
-    background-position: -80px 0px;
+    background-position: 50% 0px;
   }
 }
 
@@ -349,9 +349,9 @@ a.text-normal {
 }
 
 @media (max-width: 840px) {
-  .content{
+/*  .content{
     margin: 0 3% 0 3%;
-  }
+  }*/
   .content.bottom{
     top: 50%;
     transform: translateY(-50%);
@@ -384,7 +384,7 @@ img{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position: 0px -130px;
+  background-position: 50% -90px;
   color: white;
   background-repeat-x: no-repeat;
     background-repeat-y: no-repeat;
@@ -392,7 +392,15 @@ img{
 
 @media (max-width: 840px) {
   .group-image{
-    background-position: -100px 0px;
+    background-position: 50% 0;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    height: auto;
+  }
+  .group-image.content-div {
+    min-height: 200px;
   }
 }
 
@@ -429,6 +437,7 @@ img{
 }
 .front-page .content.text {
   max-width: 750px;
+  padding: 0 20% 0 20%;
 }
 
 .our-mission .half.left,
@@ -448,24 +457,40 @@ img{
 
 /* hyperloop */
 .content-div.hyperloop {
-  background-image: url('../assets/images/hyperloop-will.png');
+      background-image: url('../assets/images/hyperloop-will.png'), -webkit-linear-gradient(top, rgb(190, 211, 236) 0%, rgb(197, 234, 249) 30%, rgb(197, 234, 249) 98%, rgb(186, 221, 235) 100%);
+      background-image: url('../assets/images/hyperloop-will.png'), -moz-linear-gradient(top, rgb(190, 211, 236) 0%, rgb(197, 234, 249) 30%, rgb(197, 234, 249) 98%, rgb(186, 221, 235) 100%);
+      background-image: url('../assets/images/hyperloop-will.png'), linear-gradient(top, rgb(190, 211, 236) 0%, rgb(197, 234, 249) 30%, rgb(197, 234, 249) 98%, rgb(186, 221, 235) 100%);
+
   background-size: 100%;
   background-repeat: no-repeat;
   background-size: contain;
-  background-position-x: 50%;
+  background-position: 50% 0;
   background-color: #C5EAF9;
+  height: 100vh;
 }
 
 /* our team */
 .content.team {
   padding: 50px 20px 50px 20px;
+  width: 80%;
 }
+@media (max-width: 900px) {
+  .content.team {
+    padding: 0;
+    width: 100%;
+  }
+}
+
+.content.team a {
+  margin-top: 30px;
+}
+
 .team-top {
   /*assets/images/rloop-psfk.com_.png-1.jpg*/
   background-image: -webkit-linear-gradient(top,  rgba(125,185,232,0) 65%,rgba(30,87,153,1) 100%), url('../assets/images/rloop-psfk.com_.png-1.jpg'); 
   background-size: initial;
   background-repeat: no-repeat;
-  background-position: 50%;
+  background-position: 50% 50%;
   text-align: center;
   min-height: 330px;
   background-color: black;
@@ -488,7 +513,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', e
 }
 .team .member .profile-image-wrapper {
   width: 100px;
-  height: 100px;
+  min-height: 100px;
   border-radius: 50%;
   overflow: hidden;
   float: left;
@@ -520,10 +545,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', e
   background-size: 100%;
   background-repeat: no-repeat;
   background-size: contain;
-  background-position-x: 50%;
+  background-position: 50% 0;
   min-height: none;
 }
 
+@media (max-width: 900px) {
+  .member {
+    width: 45%;
+    min-height: 100px;
+    display: inline-block;
+    vertical-align: top;
+  }
+}
 /*///////////////*/
 /* press */
 /*///////////////*/
