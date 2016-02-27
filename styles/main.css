@@ -52,6 +52,8 @@
     margin-bottom: 30px;
 }
 
+
+
 /* header */
 
 .header{
@@ -526,6 +528,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', e
 /*///////////////*/
 /* press */
 /*///////////////*/
+.press.main-content {
+  text-align: center;
+}
+.press-title .megatext strong {
+    font-size: 250%;
+    font-family: 'roboto_slab_light', Helvetica, Arial, sans-serif;
+}
+@media (max-width: 840px) {
+  .press-title .content.bottom {
+      top: 75%;
+      transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+  }
+}
 
 .press-title {
     height: 35vh;
@@ -535,19 +551,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', e
   max-width: 1600px;
   margin: 5px auto 5px auto;
   padding: 5px 20px 5px 20px;
-  border: solid black 1px;
+  text-align: center;
 }
 
 .press-reports .report {
   border: solid #A7A7A7 1px;
   border-top: solid 10px;
   display: inline-block;
+  text-align: center;
   margin: 1%;
   padding-top: 30px;
   box-shadow: rgb(132, 130, 130) 1px 1px 2px;
-  text-align: center;
   background-color: #FBF9F9;
-  float: left;
+  vertical-align: top;
+}
+
+.press-reports .report .logo {
+    height: 130px;
 }
 
 .press-reports .report img {
@@ -555,17 +575,137 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', e
   margin: 0 auto; 
   margin-bottom: 20px;
   max-height: 80px;
+  text-align: center;
 }
 
 .press-reports .report .text {
   background-color: white;
   text-align: left;
-  padding: 10px 30px 30px 30px;
+  padding: 10px 50px 30px 50px;
   height: 100px;
 }
 
+/* report specific */
+/*verge*/
+.press-reports .report.verge{
+  border-color: #FF5020; 
+  width: 45%;
+}
 
+.press-reports .report.verge h2 {
+    font-family: 'roboto_slab_light', Helvetica, Arial, sans-serif;
+    font-size: 170%;
+}
+.press-reports .report.verge p {
+    color: gray;
+    font-size: 90%;
+}
 
+/*Fortune*/
+.press-reports .report.fortune {
+  border-color: black; 
+  width: 45%;
+}
+.press-reports .report.fortune p {
+  font-family: 'roboto_slab_bold', Helvetica, Arial, sans-serif;
+  font-size: 90%;
+  font-weight: 900;
+}
+
+/*PSFK*/
+.press-reports .report.psfk {
+  border-color: #673C95; 
+  width: 30%;
+}
+.press-reports .report.psfk p {
+  color: #673C95;
+  font-family: 'roboto_slab_light', Helvetica, Arial, sans-serif;
+  font-size: 120%;
+}
+/*MOBO*/
+.press-reports .report.motherboard {
+  border-color: black; 
+  width: 30%;
+}
+.press-reports .report.motherboard p {
+  color: black;
+  font-family: 'open_sans_bold', Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  font-size: 130%;
+}
+/*autoevol*/
+.press-reports .report.autoevolution {
+  border-color: black; 
+  width: 40%;
+}
+.press-reports .report.autoevolution p {
+  color: black;
+  font-family: 'open_sans_bold', Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  font-size: 130%;
+}
+/*electrek*/
+.press-reports .report.electrek {
+  border-color: #C7EDFA; 
+  width: 30%;
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  /* report specific */
+  .press-reports .report.verge{
+    border-color: #FF5020; 
+    width: 100%;
+  }
+  .press-reports .report.fortune {
+    border-color: black; 
+    width: 100%;
+  }
+  .press-reports .report.psfk {
+    border-color: #673C95; 
+    width: 40%;
+  }
+  .press-reports .report.motherboard {
+    border-color: black; 
+    width: 100%;
+  }
+  .press-reports .report.autoevolution {
+    border-color: black; 
+    width: 40%;
+  }
+  .press-reports .report.electrek {
+    border-color: #C7EDFA; 
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width : 768px) {
+  /* report specific */
+  .press-reports .report.verge{
+    border-color: #FF5020; 
+    width: 100%;
+  }
+  .press-reports .report.fortune {
+    border-color: black; 
+    width: 100%;
+  }
+  .press-reports .report.psfk {
+    border-color: #673C95; 
+    width: 100%;
+  }
+  .press-reports .report.motherboard {
+    border-color: black; 
+    width: 100%;
+  }
+  .press-reports .report.autoevolution {
+    border-color: black; 
+    width: 100%;
+  }
+  .press-reports .report.electrek {
+    border-color: #C7EDFA; 
+    width: 100%;
+  }
+}
 
 /* footer */
 
