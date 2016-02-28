@@ -26,18 +26,19 @@
 
   <div class="{{ cssName }} main-content">
     <!-- real header -->
-    <div class="half-page top-subheader title-header">
-      <div class="color-layer light-blue">
-        <div class="content bottom">
-          {% if header %}
-          <p class="megatext">{{ header | safe }}</p>
-          {% else %}
-          <p class="megatext"><strong>{{ title }}</strong></p>
-          {% endif %}
+    {% block bigHeader %}
+      <div class="half-page top-subheader title-header">
+        <div class="color-layer light-blue">
+          <div class="content bottom">
+            {% if header %}
+            <p class="megatext">{{ header | safe }}</p>
+            {% else %}
+            <p class="megatext"><strong>{{ title }}</strong></p>
+            {% endif %}
+          </div>
         </div>
       </div>
-    </div>
-
+    {% endblock %}
     {% block main %} There should be something here. (This is bad.) {% endblock %}
   </div>
 
