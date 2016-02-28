@@ -4,7 +4,9 @@
   "private": true,
   "description": "rloop.org",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "nodemon": "^1.9.1"
+  },
   "devDependencies": {
     "nunjucks": "^2.3.0",
     "shelljs": "^0.6.0"

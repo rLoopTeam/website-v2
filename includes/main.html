@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ title }} - rLoop</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="../styles/main.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="icon" href="../assets/images/favicon-32.png">
+  <script src="../js/common.js"></script>
+</head>
+<body>
+
+  <!-- FIXME: misnomer. This is actually the navbar -->
+  <div class="header">
+    <a href="index.html"><img class="logo" src="../assets/images/logo-white.png"></a>
+    <span class="hamburger" onclick="toggleHamburgerMenu()">≡</span>
+    <ul class="navbar">
+      <li><a href="team.html">Our Team</a></li>
+      <li><a href="hyperloop.html">The Hyperloop</a></li>
+      <li><a href="press.html">Press</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li>|</li>
+      <li><a target="_none" href="http://rloop.tictail.com/">Shop</a></li>
+    </ul>
+  </div>
+
+  <div class="{{ cssName }} main-content">
+    <!-- real header -->
+    <div class="half-page top-subheader title-header">
+      <div class="color-layer light-blue">
+        <div class="content bottom">
+          {% if header %}
+          <p class="megatext">{{ header | safe }}</p>
+          {% else %}
+          <p class="megatext"><strong>{{ title }}</strong></p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+
+    {% block main %} There should be something here. (This is bad.) {% endblock %}
+  </div>
+
+  <div class="footer">
+    <div class="footer-container">
+      <img class="logo" src="../assets/images/logo-white.png">
+      <div class="contact-info">
+        <h3>get in touch</h3>
+        <a href="mailto:contact@rloop.org"><p>contact@rloop.org</p></a>
+      </div>
+      <div class="follow-us">
+        <h3>follow us</h3>
+        <a href="https://twitter.com/rLoopTeam"><i class="fa fa-twitter fa-lg"></i></a>
+        <a href="https://www.facebook.com/rloopteam" class="middle"><i class="fa fa-facebook fa-lg "></i></a>
+        <a href="https://www.reddit.com/r/rLoop"><i class="fa fa-reddit-alien fa-lg"></i></a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

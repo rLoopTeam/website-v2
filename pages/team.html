@@ -1,36 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>rLoop</title>
-  <meta charset="utf-8" />
-  <link rel="stylesheet" type="text/css" href="../styles/main.css"/>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="icon" href="../assets/images/favicon-32.png">
-  <script src="../js/common.js"></script>
-</head>
-<body>
+{% set title = "Our Team" %}
+{% set cssName = "team" %}
+{# You might wonder why we have spans with a bold class instead of strong tags here. This is because
+  there is special styling applied to strong tags in page headers, that we want to avoid here. #}
+{% set header = "rLoop is comprised of over <span class=\"bold\">100 members</span> representing more than <span class=\"bold\">14 countries</span>." %}
 
-  <div class="header">
-    <a href="index.html"><img class="logo" src="../assets/images/logo-white.png"></a>
-    <span class="hamburger" onclick="toggleHamburgerMenu()">≡</span>
-    <ul class="navbar">
-      <li><a href="team.html">Our Team</a></li>
-      <li><a href="hyperloop.html">The Hyperloop</a></li>
-      <li><a href="press.html">Press</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <li>|</li>
-      <li><a target="_none" href="http://rloop.tictail.com/">Shop</a></li>
-    </ul>
-  </div>
+{% extends "includes/main.html" %}
 
-  <div class="main-content">
-    <div class="half-page top-subheader team-top">
-      <div class="content middle">
-        <div class="color-layer">
-          <p class="megatext">rLoop is comprised of over <strong>100 members</strong> representing more than <strong>14 countries</strong>.</p>
-        </div>
-      </div>
-    </div>
+{% block main %}
     <div class="content-div">
       <div class="content team">
         <div class="top-content">
@@ -125,23 +101,4 @@
       <a href="team.html" class="button-large">Interested in joining the team?</a>
     </div>
     <div class="content-div partnership"></div>
-  </div>
-
-
-  <div class="footer">
-    <div class="footer-container">
-      <img class="logo" src="../assets/images/logo-white.png">
-      <div class="contact-info">
-        <h3>get in touch</h3>
-        <p>contact@rloop.org</p>
-      </div>
-      <div class="follow-us">
-        <h3>follow us</h3>
-        <a href="https://twitter.com/rLoopTeam"><i class="fa fa-twitter fa-lg"></i></a>
-        <a href="https://www.facebook.com/rloopteam" class="middle"><i class="fa fa-facebook fa-lg "></i></a>
-        <a href="https://www.reddit.com/r/rLoop"><i class="fa fa-reddit-alien fa-lg"></i></a>
-      </div>
-    </div>
-  </div>
-</body>
-</html>
+{% endblock %}

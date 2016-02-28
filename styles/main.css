@@ -51,6 +51,10 @@
     width: 100%;
 }
 
+/* You might wonder why this exists. See my comment at the top of team.html */
+.bold {
+  font-weight: bold;
+}
 
 
 /* header */
@@ -485,9 +489,9 @@ img{
   margin-top: 30px;
 }
 
-.team-top {
+.team.title-header {
   /*assets/images/rloop-psfk.com_.png-1.jpg*/
-  background-image: -webkit-linear-gradient(top,  rgba(125,185,232,0) 65%,rgba(30,87,153,1) 100%), url('../assets/images/rloop-psfk.com_.png-1.jpg'); 
+  background-image: -webkit-linear-gradient(top,  rgba(125,185,232,0) 65%,rgba(30,87,153,1) 100%), url('../assets/images/rloop-psfk.com_.png-1.jpg');
   background-size: initial;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -563,19 +567,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', e
 .press.main-content {
   text-align: center;
 }
-.press-title .megatext strong {
+.title-header .megatext strong {
     font-size: 250%;
     font-family: 'roboto_slab_light', Helvetica, Arial, sans-serif;
 }
 @media (max-width: 840px) {
-  .press-title .content.bottom {
+  .title-header .content.bottom {
       top: 75%;
       transform: translateY(-50%);
       -webkit-transform: translateY(-50%);
   }
 }
 
-.press-title {
+.title-header {
     height: 35vh;
     background-image: url('../assets/images/hyperloop-award-signed-by-elon-musk.jpg');
     background-size: cover;
@@ -608,7 +612,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', e
 
 .press-reports .report img {
   display: inline-block;
-  margin: 0 auto; 
+  margin: 0 auto;
   margin-bottom: 20px;
   max-height: 80px;
   text-align: center;
@@ -624,7 +628,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', e
 /* report specific */
 /*verge*/
 .press-reports .report.verge{
-  border-color: #FF5020; 
+  border-color: #FF5020;
   width: 45%;
 }
 
@@ -639,7 +643,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', e
 
 /*Fortune*/
 .press-reports .report.fortune {
-  border-color: black; 
+  border-color: black;
   width: 45%;
 }
 .press-reports .report.fortune p {
@@ -650,7 +654,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', e
 
 /*PSFK*/
 .press-reports .report.psfk {
-  border-color: #673C95; 
+  border-color: #673C95;
   width: 30%;
 }
 .press-reports .report.psfk p {
@@ -660,7 +664,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', e
 }
 /*MOBO*/
 .press-reports .report.motherboard {
-  border-color: black; 
+  border-color: black;
   width: 30%;
 }
 .press-reports .report.motherboard p {
@@ -671,7 +675,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', e
 }
 /*autoevol*/
 .press-reports .report.autoevolution {
-  border-color: black; 
+  border-color: black;
   width: 40%;
 }
 .press-reports .report.autoevolution p {
@@ -682,7 +686,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', e
 }
 /*electrek*/
 .press-reports .report.electrek {
-  border-color: #C7EDFA; 
+  border-color: #C7EDFA;
   width: 30%;
 }
 
@@ -690,27 +694,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', e
 @media only screen and (max-width : 992px) {
   /* report specific */
   .press-reports .report.verge{
-    border-color: #FF5020; 
+    border-color: #FF5020;
     width: 100%;
   }
   .press-reports .report.fortune {
-    border-color: black; 
+    border-color: black;
     width: 100%;
   }
   .press-reports .report.psfk {
-    border-color: #673C95; 
+    border-color: #673C95;
     width: 40%;
   }
   .press-reports .report.motherboard {
-    border-color: black; 
+    border-color: black;
     width: 100%;
   }
   .press-reports .report.autoevolution {
-    border-color: black; 
+    border-color: black;
     width: 40%;
   }
   .press-reports .report.electrek {
-    border-color: #C7EDFA; 
+    border-color: #C7EDFA;
     width: 40%;
   }
 }
@@ -718,27 +722,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', e
 @media only screen and (max-width : 768px) {
   /* report specific */
   .press-reports .report.verge{
-    border-color: #FF5020; 
+    border-color: #FF5020;
     width: 100%;
   }
   .press-reports .report.fortune {
-    border-color: black; 
+    border-color: black;
     width: 100%;
   }
   .press-reports .report.psfk {
-    border-color: #673C95; 
+    border-color: #673C95;
     width: 100%;
   }
   .press-reports .report.motherboard {
-    border-color: black; 
+    border-color: black;
     width: 100%;
   }
   .press-reports .report.autoevolution {
-    border-color: black; 
+    border-color: black;
     width: 100%;
   }
   .press-reports .report.electrek {
-    border-color: #C7EDFA; 
+    border-color: #C7EDFA;
     width: 100%;
   }
 }

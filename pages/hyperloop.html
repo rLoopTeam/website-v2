@@ -1,43 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>rLoop</title>
-  <meta charset="utf-8" />
-  <link rel="stylesheet" type="text/css" href="../styles/main.css"/>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="icon" href="../assets/images/favicon-32.png">
-  <script src="../js/common.js"></script>
-</head>
-<body>
+{% set title = "The Hyperloop" %}
+{% set cssName = "hyperloop" %}
+{% extends "includes/main.html" %}
 
-  <div class="header">
-    <a href="index.html"><img class="logo" src="../assets/images/logo-white.png"></a>
-    <span class="hamburger" onclick="toggleHamburgerMenu()">≡</span>
-    <ul class="navbar">
-      <li><a href="team.html">Our Team</a></li>
-      <li><a href="hyperloop.html">The Hyperloop</a></li>
-      <li><a href="press.html">Press</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <li>|</li>
-      <li><a target="_none" href="http://rloop.tictail.com/">Shop</a></li>
-    </ul>
-  </div>
-
-  <div class="main-content hyperloop">
-    <div class="half-page top-subheader">
-      <div class="color-layer light-blue">
-        <div class="content middle text">
-          <p class="megatext"><strong>The Hyperloop</strong></p>
-        </div>
-      </div>
-    </div>
-    <!-- <div class="half-page top-subheader">
-      <div class="color-layer light-blue">
-        <div class="content middle">
-          <p class="megatext">If we didn't think we could <strong>change the world</strong> we wouldn't be here.</p>
-        </div>
-      </div>
-    </div> -->
+{% block main %}
     <div class="three-quarter-page content-div padded">
       <div class="content text">
         <h1>Imagine...</h1>
@@ -54,22 +19,4 @@
     <div class="half-page content-div hyperloop">
     </div>
   </div>
-
-
-  <div class="footer">
-    <div class="footer-container">
-      <img class="logo" src="../assets/images/logo-white.png">
-      <div class="contact-info">
-        <h3>get in touch</h3>
-        <p>contact@rloop.org</p>
-      </div>
-      <div class="follow-us">
-        <h3>follow us</h3>
-        <a href="https://twitter.com/rLoopTeam"><i class="fa fa-twitter fa-lg"></i></a>
-        <a href="https://www.facebook.com/rloopteam" class="middle"><i class="fa fa-facebook fa-lg "></i></a>
-        <a href="https://www.reddit.com/r/rLoop"><i class="fa fa-reddit-alien fa-lg"></i></a>
-      </div>
-    </div>
-  </div>
-</body>
-</html>
+{% endblock %}
