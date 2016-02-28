@@ -474,10 +474,35 @@ img{
 }
 
 /* our team */
+.team .members {
+    width: 80%;
+    margin-left: 5%;
+}
+
 .content.team {
   padding: 50px 20px 50px 20px;
-  width: 80%;
 }
+
+@media (max-width: 480px) {
+  .team .member {
+    width: 60%;
+    min-height: 100px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 850px) {
+  .team .member .info {
+    float: left;
+    margin-top: 15px;
+    margin-left: 5px;
+    width: 100%;
+  }
+}
+
 @media (max-width: 900px) {
   .content.team {
     padding: 0;
@@ -490,7 +515,6 @@ img{
 }
 
 .team.title-header {
-  /*assets/images/rloop-psfk.com_.png-1.jpg*/
   background-image: -webkit-linear-gradient(top,  rgba(125,185,232,0) 65%,rgba(30,87,153,1) 100%), url('../assets/images/rloop-psfk.com_.png-1.jpg');
   background-size: initial;
   background-repeat: no-repeat;
@@ -498,20 +522,14 @@ img{
   text-align: center;
   min-height: 330px;
   background-color: black;
-
-
-/*background: -moz-linear-gradient(top,  rgba(125,185,232,0) 0%, rgba(30,87,153,1) 100%);
-background: -webkit-linear-gradient(top,  rgba(125,185,232,0) 0%,rgba(30,87,153,1) 100%);
-background: linear-gradient(to bottom,  rgba(125,185,232,0) 0%,rgba(30,87,153,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#1e5799',GradientType=0 );
-*/
 }
 .top-content {
     padding: 30px 15% 30px 15%;
 }
 .member {
-  width: 350px;
-  height: 100px;
+  width: 400px;
+  min-height: 100px;
+  margin-bottom: 20px;
   display: inline-block;
   vertical-align: top;
 }
@@ -528,6 +546,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', e
 .team .member .info {
   float: left;
   margin-top: 15px;
+  margin-left: 5px;
 }
 .team .member .info p{
   text-align: left;
