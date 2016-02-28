@@ -180,7 +180,10 @@
 .top-subheader{
   text-align: center;
   min-height: 100%;
-  background-size: cover;
+  /* I don't know why we need this (!important), but we do */
+  background-repeat: no-repeat !important;
+  background-position: center top !important;
+  background-size: cover !important;
 }
 
 .front-page .top-subheader{
@@ -197,6 +200,7 @@
 }
 
 .team .top-subheader {
+  background-color: black;
   background: url('../assets/images/rloop-group.jpg');
 }
 
