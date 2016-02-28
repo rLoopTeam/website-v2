@@ -180,21 +180,29 @@
 .top-subheader{
   text-align: center;
   min-height: 100%;
+  background-size: cover;
 }
 
 .front-page .top-subheader{
   background: url('../assets/images/shutterstock_90095539.jpg');
-  background-size: cover;
   background-position: 50% -100px;
 }
 
 .hyperloop .top-subheader{
   background: url('../assets/images/rLoop.74.jpg');
-  background-size: cover;
 }
 
+.press .top-subheader {
+  background: url('../assets/images/hyperloop-award-signed-by-elon-musk.jpg');
+}
+
+.team .top-subheader {
+  background: url('../assets/images/rloop-group.jpg');
+}
+
+
 @media (max-width: 840px) {
-  .hyperloop .top-subheader{
+  .top-subheader{
     background-position: 50% 0px;
   }
 }
@@ -579,9 +587,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', e
   }
 }
 
-.press.title-header {
+.title-header {
     height: 35vh;
-    background-image: url('../assets/images/hyperloop-award-signed-by-elon-musk.jpg');
     background-size: cover;
     background-position: 50% 20%;
     background-repeat: no-repeat;
