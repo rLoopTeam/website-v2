@@ -1,0 +1,26 @@
+{
+  "name": "@rloopteam/website",
+  "version": "3.0.0",
+  "private": true,
+  "description": "rloop.org",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "nunjucks": "^2.3.0",
+    "shelljs": "^0.6.0"
+  },
+  "scripts": {
+    "build": "shjs compile.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rloopteam/website-v2.git"
+  },
+  "author": "Ari Porad <ari@ariporad.com> (http://github.com/ariporad)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rloopteam/website-v2/issues"
+  },
+  "homepage": "https://github.com/rloopteam/website-v2#readme"
+}
