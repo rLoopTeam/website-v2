@@ -13,89 +13,29 @@
           <h3>We believe in the power of open source collaboration. It’s our driving ethos, our catalyst for innovation, and our means to exponential growth. We believe individuals can have a massive impact when their passion is their incentive, and when they know they are making a difference.</h3>
           <h3>We believe the time to revolutionize transportation and bring the world closer together is here, and we are the team that is making it a reality.</h3>
         </div>
-
         <div class="members clearfix">
-          <div class="member">
-            <div class="profile-image-wrapper">
-              <img src="..\assets\images\members\doge.png"/>
+          {{items}}
+          {% for member in members %}
+            <div class="member">
+              <div class="profile-image-wrapper">
+                <img src="{{member.imageUrl}}"/>
+              </div>
+              <div class="info">
+                <p>{{member.name}}</p>
+                <p><strong>{{member.title}},</strong> <i>{{member.location}}</i></p>
+              </div>
             </div>
-            <div class="info">
-              <p>Paul Le Henaff</p>
-              <p><strong>Software Engineer,</strong> <i>UK</i></p>
+          {% else %}
+            <div class="member">
+              <div class="profile-image-wrapper">
+                <img src="..\assets\images\members\doge.png"/>
+              </div>
+              <div class="info">
+                <p>No team members</p>
+                <p>:(</p>
+              </div>
             </div>
-          </div>
-          <div class="member">
-            <div class="profile-image-wrapper">
-              <img src="..\assets\images\members\doge.png"/>
-            </div>
-            <div class="info">
-              <p>Paul Le Henaff</p>
-              <p><strong>Software Engineer,</strong> <i>UK</i></p>
-            </div>
-          </div>
-          <div class="member">
-            <div class="profile-image-wrapper">
-              <img src="..\assets\images\members\doge.png"/>
-            </div>
-            <div class="info">
-              <p>Paul Le Henaff</p>
-              <p><strong>Software Engineer,</strong> <i>UK</i></p>
-            </div>
-          </div>
-          <div class="member">
-            <div class="profile-image-wrapper">
-              <img src="..\assets\images\members\doge.png"/>
-            </div>
-            <div class="info">
-              <p>Paul Le Henaff</p>
-              <p><strong>Software Engineer,</strong> <i>UK</i></p>
-            </div>
-          </div>
-          <div class="member">
-            <div class="profile-image-wrapper">
-              <img src="..\assets\images\members\doge.png"/>
-            </div>
-            <div class="info">
-              <p>Paul Le Henaff</p>
-              <p><strong>Software Engineer,</strong> <i>UK</i></p>
-            </div>
-          </div>
-          <div class="member">
-            <div class="profile-image-wrapper">
-              <img src="..\assets\images\members\doge.png"/>
-            </div>
-            <div class="info">
-              <p>Paul Le Henaff</p>
-              <p><strong>Software Engineer,</strong> <i>UK</i></p>
-            </div>
-          </div>
-          <div class="member">
-            <div class="profile-image-wrapper">
-              <img src="..\assets\images\members\doge.png"/>
-            </div>
-            <div class="info">
-              <p>Paul Le Henaff</p>
-              <p><strong>Software Engineer,</strong> <i>UK</i></p>
-            </div>
-          </div>
-          <div class="member">
-            <div class="profile-image-wrapper">
-              <img src="..\assets\images\members\doge.png"/>
-            </div>
-            <div class="info">
-              <p>Paul Le Henaff</p>
-              <p><strong>Software Engineer,</strong> <i>UK</i></p>
-            </div>
-          </div>
-          <div class="member">
-            <div class="profile-image-wrapper">
-              <img src="..\assets\images\members\doge.png"/>
-            </div>
-            <div class="info">
-              <p>Paul Le Henaff</p>
-              <p><strong>Software Engineer,</strong> <i>UK</i></p>
-            </div>
-          </div>
+          {% endfor %}
         </div>
       </div>
       <a href="team.html" class="button-large">Interested in joining the team?</a>
