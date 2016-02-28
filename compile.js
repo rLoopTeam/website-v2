@@ -21,7 +21,7 @@ ls('-R', 'pages').filter(file => file.slice(-5) === '.html').forEach(page => {
 
 function getContext (pageName) {
   const defaultContext = {
-    __DEV__: (process.env.DEV !== undefined) ? !!process.env.DEV : process.env.NODE_ENV !== 'production',
+    __DEV__: (typeof process.env.DEV === 'string') ? process.env.DEV.trim() === '1' : process.env.NODE_ENV !== 'production',
   };
 
 	const pagesContexts = {
@@ -44,6 +44,6 @@ function getContext (pageName) {
 			]
 		}
 	}
-  
+
 	return Object.assign({}, defaultContext, pagesContexts[pageName]);
 }
