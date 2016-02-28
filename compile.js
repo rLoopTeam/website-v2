@@ -10,21 +10,21 @@ config.silent = true;
 rm('-rf', 'build');
 mkdir('build');
 
-['js', 'styles', 'assets'].forEach(function(dir) {
-  cp('-r', dir, 'build');
-});
+['js', 'styles', 'assets'].forEach(dir => cp('-r', dir, 'build'));
 
-ls('-R', 'pages').filter(function(file) {
-  return file.slice(-5) === '.html';
-}).forEach(function(page) {
+ls('-R', 'pages').filter(file => file.slice(-5) === '.html').forEach(page => {
   mkdir('-p', path.join('build', path.dirname(page)));
-  var str = cat(path.join('pages', page)).toString();
-  var out = nunjucks.renderString(str, getContext(path.basename(page, '.html')));
+  const str = cat(path.join('pages', page)).toString();
+  const out = nunjucks.renderString(str, getContext(path.basename(page, '.html')));
   out.to(path.join('build', page)); // FIXME: Won't be compatable with shelljs@0.7.0
 });
 
 function getContext (pageName) {
-	var pagesContexts = {
+  const defaultContext = {
+    __DEV__: (process.env.DEV !== undefined) ? !!process.env.DEV : process.env.NODE_ENV !== 'production',
+  };
+
+	const pagesContexts = {
 		"team":{
 			"members": [
 				{ "name":"Brent Lessard", "title": "Project Manager", "location": "Canada", "imageUrl": "assets/images/members/ble.png" },
@@ -40,9 +40,10 @@ function getContext (pageName) {
 				{ "name":"Shabab Hussain", "title": "Visualisation Lead", "location": "Hong Kong", "imageUrl": "assets/images/members/shu.png" },
 				{ "name":"Paul Guenette", "title": "Assisstant Project Manager", "location": "Canada", "imageUrl": "assets/images/members/doge.png" },
 				{ "name":"Joakim Forslund", "title": "Software Lead", "location": "Sweden", "imageUrl": "assets/images/members/doge.png" },
-				{ "name":"Richard P. Behiel", "title": "PR Lead", "location": "USA", "imageUrl": "assets/images/members/rbe.png" }
+				{ "name":"Richard P. Behiel", "title": "PR Lead", "location": "USA", "imageUrl": "assets/images/members/rbe.png" },
 			]
 		}
 	}
-	return pagesContexts[pageName];
+  
+	return Object.assign({}, defaultContext, pagesContexts[pageName]);
 }

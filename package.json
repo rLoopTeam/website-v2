@@ -8,11 +8,19 @@
     "nodemon": "^1.9.1"
   },
   "devDependencies": {
+    "concurrently": "^2.0.0",
+    "http-server": "^0.9.0",
+    "livereload": "^0.4.1",
+    "nodemon": "^1.9.1",
     "nunjucks": "^2.3.0",
     "shelljs": "^0.6.0"
   },
   "scripts": {
     "build": "shjs compile.js",
+    "_livereload": "livereload build",
+    "_nodemon": "nodemon -q -e html,css,js -i build -i node_modules -x \"npm run build\"",
+    "_httpserver": "http-server -r -c-1 build",
+    "dev": "concurrently \"npm run _httpserver\" \"npm run _nodemon\" \"npm run _livereload\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,5 +32,8 @@
   "bugs": {
     "url": "https://github.com/rloopteam/website-v2/issues"
   },
-  "homepage": "https://github.com/rloopteam/website-v2#readme"
+  "homepage": "https://github.com/rloopteam/website-v2#readme",
+  "engines": {
+    "node": ">=4.0.0"
+  }
 }
