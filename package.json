@@ -13,9 +13,11 @@
     "livereload": "^0.4.1",
     "nodemon": "^1.9.1",
     "nunjucks": "^2.3.0",
-    "shelljs": "^0.6.0"
+    "shelljs": "^0.6.0",
+    "surge": "^0.17.7"
   },
   "scripts": {
+    "deploy": "npm run build && surge build",
     "build": "shjs compile.js",
     "_livereload": "livereload build",
     "_nodemon": "nodemon -q -e html,css,js -i build -i node_modules -x \"npm run build\"",
