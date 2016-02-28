@@ -817,11 +817,63 @@ img{
   display: inline-block;
   height: 50px;
 }
-.footer .contact-info{
+.footer .list-signup{
   display: inline-block;
   vertical-align: middle;
   margin-left: 7%;
   margin-right: 7%;
+}
+
+.footer .list-email, .footer .list-button{
+  background-color: rgba(0, 0, 0, 0);
+  border: 4px solid white;
+  border-radius: 5px;
+  color: white;
+  padding: 2%;
+
+}
+
+.footer .list-email{
+  width: 59%;
+}
+
+.footer .list-email::-webkit-input-placeholder, .footer .list-email, .footer .list-button{ /* Chrome/Opera/Safari */
+  font-weight: bold;
+  font-family: 'open_sans', Helvetica, Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.footer .list-email::-moz-placeholder, .footer .list-email, .footer .list-button{ /* Firefox 19+ */
+  font-weight: bold;
+  font-family: 'open_sans', Helvetica, Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.footer .list-email:-ms-input-placeholder, .footer .list-email, .footer .list-button{ /* IE 10+ */
+  font-weight: bold;
+  font-family: 'open_sans', Helvetica, Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.footer .list-email:-moz-placeholder, .footer .list-email, .footer .list-button{ /* Firefox 18- */
+  font-weight: bold;
+  font-family: 'open_sans', Helvetica, Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.footer .list-email::placeholder, .footer .list-email, .footer .list-button{ /* Future spec */
+  font-weight: bold;
+  font-family: 'open_sans', Helvetica, Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.footer .list-button{
+
 }
 
 .footer .follow-us{
