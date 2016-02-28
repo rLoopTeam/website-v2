@@ -812,11 +812,21 @@ img{
   margin-top: 45px;
 }
 
-.footer .logo{
+.footer .copyright{
   vertical-align: middle;
   display: inline-block;
-  height: 50px;
+  width: 180px;
+  text-align: center;
+  overflow: visible;
+  margin-right: -40px; /* to account for the copyright text */
 }
+
+.footer .copyright .logo {
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .footer .list-signup{
   display: inline-block;
   vertical-align: middle;
