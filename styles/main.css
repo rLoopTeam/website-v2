@@ -282,10 +282,9 @@ a.text-normal {
 
 .content-div h1{
   font-family: 'roboto_slab_light', Helvetica, Arial, sans-serif;
-  font-size: 220%;
+  font-size: 420%;
   margin-bottom: 2%;
 }
-
 .content-div h3{
   font-family: 'open_sans_light', Helvetica, Arial, sans-serif;
   font-size: 140%;
@@ -304,7 +303,7 @@ a.text-normal {
 
 .content-div p{
   font-family: 'open_sans', Helvetica, Arial, sans-serif;
-  font-size: 100%;
+  font-size: 120%;
   margin-bottom: 2.5%;
 }
 
@@ -428,6 +427,18 @@ img{
 }
 
 /* frontpage */
+
+.front-page .content.text p {
+    font-weight: 600;
+}
+.front-page .content.text h1 {
+    margin-bottom: 4%;
+}
+.front-page .content.text h2 {
+    font-family: 'open_sans_light', Helvetica, Arial, sans-serif;
+    font-size: 180%;
+    margin-bottom: 5%;
+}
 .front-page .down-arrow {
   opacity: 0.55;
   max-width: 150px;
