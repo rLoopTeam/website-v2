@@ -31,7 +31,10 @@ If you have questions ask them on Slack #webdev. Apparently I'm (Keksike) runnin
 
 ## Commands
 `npm run dev` - Run the dev server for automatic template compiling
+
 `npm run build` - Compile the templates into html
+
 `npm run deploy:dev` - Deploy to beta url (assuming you have Surge permission)
+
 `npm run deploy:prod` - Deploy to production url (assuming you have Surge permission)
 
