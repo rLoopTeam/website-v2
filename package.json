@@ -17,7 +17,8 @@
     "surge": "^0.17.7"
   },
   "scripts": {
-    "deploy": "npm run build && surge build",
+    "deploy:prod": "DEV=0 NODE_ENV=production npm run build && surge build --domain rloop.org",
+    "deploy:dev": "npm run build && surge build --domain rloop-beta.surge.sh",
     "build": "shjs compile.js",
     "_livereload": "livereload build",
     "_nodemon": "nodemon -q -e html,css,js -i build -i node_modules -x \"npm run build\"",
