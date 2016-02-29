@@ -36,6 +36,13 @@
   padding: 0;
 }
 
+/* news things */
+input.list-email:focus::-webkit-input-placeholder { color:transparent; }
+input.list-email:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+input.list-email:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+input.list-email:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+input.list-button {cursor: pointer;}
+
 /*///////////////*/
 /* utility */
 /*///////////////*/
@@ -449,11 +456,53 @@ img{
 .front-page .megatext {
   padding-left: 0;
   padding-right: 0;
-  font-size: 375%;
+  font-size: 600%;
+}
+
+@media (max-width: 1500px) {
+  .front-page .megatext {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 500%;
+  }
 }
 .front-page .content.text {
-  max-width: 750px;
-  padding: 0 20% 0 20%;
+    max-width: 1200px;
+    padding: 0 20% 0 20%;
+}
+@media (max-width: 1500px) {
+  .front-page .content.text {
+      max-width: 1200px;
+      padding: 0 10% 0 10%;
+  }
+}
+
+@media (max-width: 900px) {
+  .front-page .megatext {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 400%;
+  }
+  .front-page .content.text {
+      max-width: 1200px;
+      padding: 0 5% 0 5%;
+  }
+}
+
+@media (max-width: 480px) {
+  .front-page .megatext {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 350%;
+  }
+}
+
+@media (max-height: 800px) {
+  .front-page .megatext {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 300%;
+  }
 }
 
 .our-mission .half.left,
@@ -792,7 +841,7 @@ img{
 
 .footer{
   display: inline-block;
-  height: 140px;
+  min-height: 140px;
   width: 100%;
   background-color: #404040;
   text-align: center;
