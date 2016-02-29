@@ -2,69 +2,40 @@
 {% set cssName = "press" %}
 {% extends "includes/main.html" %}
 
+{#
+ # This is auto generated from press.json.
+ # press.json is an array. Each item is another array, which represents one row.
+ # Each item in a row is an object, which represents one article. The widths for
+ # the article are auto-calculated.
+ #
+ # The properties of a story are:
+ # color: The color for the strip at the top. Any valid CSS color is OK.
+ # link: The link to the article.
+ # name: a unique name for the *news outlet* all one word, letters and numbers
+         only. Must be all lowercase, and correspont to a .png file in
+         assets/images. (ex. 'verge' => 'assets/images/verge.png', 'motherboard'.)
+ # title: The title of the article.
+ # textCSS: any valid css, will be applied to the title. Usually this includes
+ #          `color` and `font-family`, but also sometimes `font-size` and
+ #          `font-weight` are used.
+ #}
+
 {% block main %}
 <div class="press-reports clearfix">
-  <!-- top -->
-  <div class="report verge">
-    <div class="logo">
-      <img src="../assets/images/verge.png">
-    </div>
-    <div class="text">
-      <h2>How to build a Hyperloop</h2>
-      <p><i>Over a thousand students flood Texas A&amp;M last weekend for a piece of Elon Musk's moonshot</i></p>
-    </div>
-  </div>
-  <div class="report fortune" >
-    <div class="logo">
-      <img src="../assets/images/fortune.png">
-    </div>
-    <div class="text">
-      <p>One non-university team organized through online forum Reddit, advanced through the first phase of the compeition and will test their pod this summer on a SpaceX-built Hyperloop test track</p>
-    </div>
-  </div>
-
-  <!-- mid -->
-  <div class="report psfk" >
-    <div class="logo">
-      <img src="../assets/images/psfk.png">
-    </div>
-    <div class="text">
-      <p>rLoop: We Are Pushing the Limits of the Open Source, Online Think Tank Model</p>
-    </div>
-  </div>
-  <div class="report electrek" >
-    <div class="logo">
-      <img src="../assets/images/electrek.png">
-    </div>
-    <div class="text">
-      <p>Elon Musk on the Hyperloop: "I'm starting to think this is really going to happen" - MIT and Reddit won the SpaceX Hyperloop Pod Design Competition</p>
-    </div>
-  </div>
-  <div class="report motherboard" >
-    <div class="logo">
-      <img src="../assets/images/motherboard.png">
-    </div>
-    <div class="text">
-      <p>Meet the Redditors Who Designed a Hyperloop Pod</p>
-    </div>
-  </div>
-
-  <!-- bottom -->
-  <div class="report autoevolution">
-    <div class="logo">
-      <img src="../assets/images/autoevolution.png">
-    </div>
-    <div class="text">
-      <p>rLoop is the Latest Team Hellbent on Making Hyperloop a Reality</p>
-    </div>
-  </div>
-  <div class="report electrek" >
-    <div class="logo">
-      <img src="../assets/images/electrek.png">
-    </div>
-    <div class="text">
-      <p>Reddit came together and created a Hyperloop pod design to help kickstart Elon Musk's </p>
-    </div>
-  </div>
+  {% for row in stories %}
+    {% set width = 90 / row.length %}
+    {% for story in row %}
+      <div class="report" style="border-color: {{ story.color }}; width: {{ width }}%;">
+        <a href="{{ story.link }}" target="_blank">
+          <div class="logo">
+            <img src="../assets/images/{{ story.name }}.png">
+          </div>
+          <div class="text">
+            <p style="{{ story.textCSS }}">{{ story.title }}</p>
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+  {% endfor %}
 </div>
 {% endblock %}

@@ -42,7 +42,10 @@ function getContext (pageName) {
 				{ "name":"Joakim Forslund", "title": "Software Lead", "location": "Sweden", "imageUrl": "assets/images/members/doge.png" },
 				{ "name":"Richard P. Behiel", "title": "PR Lead", "location": "USA", "imageUrl": "assets/images/members/rbe.png" },
 			]
-		}
+		},
+    "press": {
+      stories: require('./press.json'),
+    }
 	}
 
 	return Object.assign({}, defaultContext, pagesContexts[pageName]);

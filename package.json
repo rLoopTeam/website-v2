@@ -21,7 +21,7 @@
     "deploy:dev": "npm run build && surge build --domain rloop-beta.surge.sh",
     "build": "shjs compile.js",
     "_livereload": "livereload build",
-    "_nodemon": "nodemon -q -e html,css,js -i build -i node_modules -x \"npm run build\"",
+    "_nodemon": "nodemon -q -e html,css,js,json -i build -i node_modules -x \"npm run build\"",
     "_httpserver": "http-server -r -c-1 build",
     "dev": "concurrently \"npm run _httpserver\" \"npm run _nodemon\" \"npm run _livereload\"",
     "test": "echo \"Error: no test specified\" && exit 1"

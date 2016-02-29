@@ -645,10 +645,22 @@ img{
   box-shadow: rgb(132, 130, 130) 1px 1px 2px;
   background-color: #FBF9F9;
   vertical-align: top;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .press-reports .report .logo {
     height: 130px;
+}
+
+.press-reports .report a {
+  text-decoration: none !important;
+  color: black;
+  text-align: center;
+}
+
+.press-reports .report p {
+  text-align: center;
 }
 
 .press-reports .report img {
@@ -664,128 +676,6 @@ img{
   text-align: left;
   padding: 10px 50px 30px 50px;
   height: 100px;
-}
-
-/* report specific */
-/*verge*/
-.press-reports .report.verge{
-  border-color: #FF5020;
-  width: 45%;
-}
-
-.press-reports .report.verge h2 {
-    font-family: 'roboto_slab_light', Helvetica, Arial, sans-serif;
-    font-size: 170%;
-}
-.press-reports .report.verge p {
-    color: gray;
-    font-size: 90%;
-}
-
-/*Fortune*/
-.press-reports .report.fortune {
-  border-color: black;
-  width: 45%;
-}
-.press-reports .report.fortune p {
-  font-family: 'roboto_slab_bold', Helvetica, Arial, sans-serif;
-  font-size: 90%;
-  font-weight: 900;
-}
-
-/*PSFK*/
-.press-reports .report.psfk {
-  border-color: #673C95;
-  width: 30%;
-}
-.press-reports .report.psfk p {
-  color: #673C95;
-  font-family: 'roboto_slab_light', Helvetica, Arial, sans-serif;
-  font-size: 120%;
-}
-/*MOBO*/
-.press-reports .report.motherboard {
-  border-color: black;
-  width: 30%;
-}
-.press-reports .report.motherboard p {
-  color: black;
-  font-family: 'open_sans_bold', Helvetica, Arial, sans-serif;
-  font-weight: 900;
-  font-size: 130%;
-}
-/*autoevol*/
-.press-reports .report.autoevolution {
-  border-color: black;
-  width: 40%;
-}
-.press-reports .report.autoevolution p {
-  color: black;
-  font-family: 'open_sans_bold', Helvetica, Arial, sans-serif;
-  font-weight: 900;
-  font-size: 130%;
-}
-/*electrek*/
-.press-reports .report.electrek {
-  border-color: #C7EDFA;
-  width: 30%;
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-  /* report specific */
-  .press-reports .report.verge{
-    border-color: #FF5020;
-    width: 100%;
-  }
-  .press-reports .report.fortune {
-    border-color: black;
-    width: 100%;
-  }
-  .press-reports .report.psfk {
-    border-color: #673C95;
-    width: 40%;
-  }
-  .press-reports .report.motherboard {
-    border-color: black;
-    width: 100%;
-  }
-  .press-reports .report.autoevolution {
-    border-color: black;
-    width: 40%;
-  }
-  .press-reports .report.electrek {
-    border-color: #C7EDFA;
-    width: 40%;
-  }
-}
-
-@media only screen and (max-width : 768px) {
-  /* report specific */
-  .press-reports .report.verge{
-    border-color: #FF5020;
-    width: 100%;
-  }
-  .press-reports .report.fortune {
-    border-color: black;
-    width: 100%;
-  }
-  .press-reports .report.psfk {
-    border-color: #673C95;
-    width: 100%;
-  }
-  .press-reports .report.motherboard {
-    border-color: black;
-    width: 100%;
-  }
-  .press-reports .report.autoevolution {
-    border-color: black;
-    width: 100%;
-  }
-  .press-reports .report.electrek {
-    border-color: #C7EDFA;
-    width: 100%;
-  }
 }
 
 /* footer */
