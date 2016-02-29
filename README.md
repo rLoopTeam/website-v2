@@ -1,5 +1,9 @@
 # website-v2
 
+## Requirements
+Node 4.x
+Surge (optional)
+
 ## Basic info
 
 The site is launching on 28th of February.
@@ -7,7 +11,6 @@ The site is launching on 28th of February.
 For now its just plain HTML, CSS and JS. We didn't know who was familiar with what, so we decided to go simple for now since we're on such a tight schedule. After February when we have time for meetings and to talk things through we will put it on a proper platform.
 
 ## Work assignments
-
 These will probably change, and we will work together on some.
 
 ### Pages
@@ -24,3 +27,10 @@ The site uses [nunjucks](http://mozilla.github.io/nunjucks/) for templating. Pag
 During development, just run `npm run dev`. It will start a server on [localhost:8080](http://localhost:8080), and whenever something changes, re-build and automagically reload the page. Automagically.
 
 If you have questions ask them on Slack #webdev. Apparently I'm (Keksike) running the development at this moment, so you can PM me too.
+
+## Commands
+`npm run dev` - Run the dev server for automatic template compiling
+`npm run build` - Compile the templates into html
+`npm run deploy:dev` - Deploy to beta url (assuming you have Surge permission)
+`npm run deploy:prod` - Deploy to production url (assuming you have Surge permission)
+
