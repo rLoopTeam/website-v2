@@ -211,6 +211,9 @@ input.list-button {cursor: pointer;}
   background: url('../assets/images/rloop-group.jpg');
 }
 
+.team .top-content {
+  font-size: 130%;
+}
 
 @media (max-width: 840px) {
   .top-subheader{
@@ -464,6 +467,10 @@ img{
   display: inline-block;
 }
 
+.content-div.latest-news{
+  background-color: #FFF;
+}
+
 .front-page .megatext {
   padding-left: 0;
   padding-right: 0;
@@ -547,6 +554,17 @@ img{
 /*/////////////////////////*/
 /* our team */
 /*//////////////////////////*/
+
+@media (max-width: 360px ) and (max-height: 640px )  {
+  .top-subheader .megatext {
+      padding-top: 0;
+  }
+}
+.hyperloop .megatext {
+    font-size: 250%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
 
 .team .members {
     width: 80%;
@@ -693,6 +711,7 @@ img{
   margin: 5px auto 5px auto;
   padding: 5px 20px 5px 20px;
   text-align: center;
+  width: auto;
 }
 
 .press-reports .report {

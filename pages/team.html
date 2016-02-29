@@ -2,7 +2,7 @@
 {% set cssName = "team" %}
 {# You might wonder why we have spans with a bold class instead of strong tags here. This is because
   there is special styling applied to strong tags in page headers, that we want to avoid here. #}
-{% set header = "rLoop is comprised of over <span class=\"bold\">100 members</span> representing more than <span class=\"bold\">14 countries</span>." %}
+{% set header = "<strong>Our team</strong>" %}
 
 {% extends "includes/main.html" %}
 
@@ -10,7 +10,10 @@
     <div class="content-div">
       <div class="content team">
         <div class="top-content">
+          <h3>rLoop is comprised of over <span class=\"bold\">100 members</span> representing more than <span class=\"bold\">14 countries</span>.</h3>
+          <br>
           <h3>We believe in the power of open source collaboration. It’s our driving ethos, our catalyst for innovation, and our means to exponential growth. We believe individuals can have a massive impact when their passion is their incentive, and when they know they are making a difference.</h3>
+          <br>
           <h3>We believe the time to revolutionize transportation and bring the world closer together is here, and we are the team that is making it a reality.</h3>
         </div>
         <div class="members clearfix">
