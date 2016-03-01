@@ -35,12 +35,12 @@ function getContext (pageName) {
 				{ "name":"Mohd Amir Hasan Khan", "title": "Numerical Simulation Lead", "location": "India", "imageUrl": "assets/images/members/mhk.png" },
 				{ "name":"Larry Joseph \"Joey\" Sharette Jr.", "title": "Manufacturing Lead", "location": "USA", "imageUrl": "assets/images/members/lsh.png" },
 				{ "name":"Shabab Hussain", "title": "Industrial Design Lead", "location": "Hong Kong", "imageUrl": "assets/images/members/shu.png" },
-				{ "name":"Joakim Forslund", "title": "Software Lead", "location": "Sweden", "imageUrl": "assets/images/members/doge.png" },
+				{ "name":"Joakim Forslund", "title": "Software Lead", "location": "Sweden", "imageUrl": "assets/images/members/snoo.png" },
 				{ "name":"José Peña;", "title": "Thermal Lead", "location": "Spain", "imageUrl": "assets/images/members/jos___jrockwar__200.jpg" },
 				{ "name":"Marek Gutt-Mostowy", "title": "Controls Lead", "location": "Poland", "imageUrl": "assets/images/members/marek_gutt-mostowy_m4rol__200.jpg" },
-				{ "name":"Adrian Kelly", "title": "Electrical Lead", "location": "USA", "imageUrl": "assets/images/members/doge.png" },
+				{ "name":"Adrian Kelly", "title": "Electrical Lead", "location": "USA", "imageUrl": "assets/images/members/snoo.png" },
 				{ "name":"Richard P. Behiel", "title": "PR Lead", "location": "USA", "imageUrl": "assets/images/members/rbe.png" },
-				{ "name":"Kevin Burville", "title": "Social Media Lead", "location": "USA", "imageUrl": "assets/images/members/doge.png" },
+				{ "name":"Kevin Burville", "title": "Social Media Lead", "location": "USA", "imageUrl": "assets/images/members/snoo.png" },
 				{ "name":"Ari Porad", "title": "IT Lead", "location": "USA", "imageUrl": "assets/images/members/apo.png" },
 				{ "name":"Henry McKay", "title": "Finance Lead", "location": "New Zealand", "imageUrl": "assets/images/members/henry_mckay_finance_200.jpg" }
 			]
