@@ -188,13 +188,13 @@ input.list-button {cursor: pointer;}
   min-height: 100%;
   /* I don't know why we need this (!important), but we do */
   background-repeat: no-repeat !important;
-  background-position: center top !important;
+  background-position: center top;
   background-size: cover !important;
 }
 
 .front-page .top-subheader{
   background: url('../assets/images/shutterstock_90095539.jpg');
-  background-position: 50% -100px;
+  background-position: 50% 25%;
 }
 
 .hyperloop .top-subheader{
@@ -217,6 +217,12 @@ input.list-button {cursor: pointer;}
 @media (max-width: 840px) {
   .top-subheader{
     background-position: 50% 0px;
+  }
+}
+@media (max-width: 1200px) {
+  .front-page .top-subheader {
+      background: url('../assets/images/shutterstock_90095539.jpg');
+      background-position: 50% 30%;
   }
 }
 
