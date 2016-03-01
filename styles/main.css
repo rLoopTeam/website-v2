@@ -36,6 +36,13 @@
   padding: 0;
 }
 
+/* news things */
+input.list-email:focus::-webkit-input-placeholder { color:transparent; }
+input.list-email:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+input.list-email:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+input.list-email:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+input.list-button {cursor: pointer;}
+
 /*///////////////*/
 /* utility */
 /*///////////////*/
@@ -204,6 +211,9 @@
   background: url('../assets/images/rloop-group.jpg');
 }
 
+.team .top-content {
+  font-size: 130%;
+}
 
 @media (max-width: 840px) {
   .top-subheader{
@@ -275,10 +285,9 @@ a.text-normal {
 
 .content-div h1{
   font-family: 'roboto_slab_light', Helvetica, Arial, sans-serif;
-  font-size: 220%;
+  font-size: 420%;
   margin-bottom: 2%;
 }
-
 .content-div h3{
   font-family: 'open_sans_light', Helvetica, Arial, sans-serif;
   font-size: 140%;
@@ -297,7 +306,7 @@ a.text-normal {
 
 .content-div p{
   font-family: 'open_sans', Helvetica, Arial, sans-serif;
-  font-size: 100%;
+  font-size: 120%;
   margin-bottom: 2.5%;
 }
 
@@ -421,6 +430,18 @@ img{
 }
 
 /* frontpage */
+
+.front-page .content.text p {
+    font-weight: 600;
+}
+.front-page .content.text h1 {
+    margin-bottom: 4%;
+}
+.front-page .content.text h2 {
+    font-family: 'open_sans_light', Helvetica, Arial, sans-serif;
+    font-size: 180%;
+    margin-bottom: 5%;
+}
 .front-page .down-arrow {
   opacity: 0.55;
   max-width: 150px;
@@ -446,14 +467,60 @@ img{
   display: inline-block;
 }
 
+.content-div.latest-news{
+  background-color: #FFF;
+}
+
 .front-page .megatext {
   padding-left: 0;
   padding-right: 0;
-  font-size: 375%;
+  font-size: 600%;
+}
+
+@media (max-width: 1500px) {
+  .front-page .megatext {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 500%;
+  }
 }
 .front-page .content.text {
-  max-width: 750px;
-  padding: 0 20% 0 20%;
+    max-width: 1200px;
+    padding: 0 20% 0 20%;
+}
+@media (max-width: 1500px) {
+  .front-page .content.text {
+      max-width: 1200px;
+      padding: 0 10% 0 10%;
+  }
+}
+
+@media (max-width: 900px) {
+  .front-page .megatext {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 400%;
+  }
+  .front-page .content.text {
+      max-width: 1200px;
+      padding: 0 5% 0 5%;
+  }
+}
+
+@media (max-width: 480px) {
+  .front-page .megatext {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 350%;
+  }
+}
+
+@media (max-height: 800px) {
+  .front-page .megatext {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 300%;
+  }
 }
 
 .our-mission .half.left,
@@ -487,6 +554,17 @@ img{
 /*/////////////////////////*/
 /* our team */
 /*//////////////////////////*/
+
+@media (max-width: 360px ) and (max-height: 640px )  {
+  .top-subheader .megatext {
+      padding-top: 0;
+  }
+}
+.hyperloop .megatext {
+    font-size: 250%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
 
 .team .members {
     width: 80%;
@@ -633,6 +711,7 @@ img{
   margin: 5px auto 5px auto;
   padding: 5px 20px 5px 20px;
   text-align: center;
+  width: auto;
 }
 
 .press-reports .report {
@@ -682,7 +761,7 @@ img{
 
 .footer{
   display: inline-block;
-  height: 140px;
+  min-height: 140px;
   width: 100%;
   background-color: #404040;
   text-align: center;
