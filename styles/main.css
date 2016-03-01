@@ -350,7 +350,7 @@ a.text-normal {
   max-height: 350px;
 }
 
-@media (max-width: 840px) {
+@media (max-width: 1150px) {
   .content .half{
     width: 90vw;
     max-width: 90vw;
@@ -533,18 +533,75 @@ img{
 
 .our-mission .half.left,
 .our-mission .half.right {
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 .our-mission a {
   margin-top: 20px;
 }
+.our-mission .half.left.exploded {
+    vertical-align: top;
+    height: 350px;
+}
+.our-mission .half.left.exploded img {
+    height: 100%;
+    max-width: none;
+    max-height: none;
+}
+
+
+.our-mission .half.left {
+    padding-right: 5%;
+}
+.our-mission .half.right {
+    padding-left: 5%;
+}
+
+@media (max-width: 1200px) {
+  .our-mission .half.right {
+      padding-left: 10%;
+      padding-right: 10%;
+  }
+  .our-mission .half.left {
+      padding-left: 10%;
+      padding-right: 10%;
+  }
+
+  .our-mission .half.left.exploded {
+      width: 100%;
+      max-width: none;
+      max-height: 350px;
+      padding-right: 10%;
+      min-height: auto;
+  }
+
+  .our-mission .half.left.exploded img {
+      height: 100%;
+      max-width: none;
+      max-height: 350px;
+  }
+}
+
 @media (max-width: 840px) {
   .image-spacer{
     display: none;
   }
 }
 
+@media (max-width: 640px) {
+  .our-mission .half.left.exploded {
+      width: 100%;
+      max-width: none;
+      max-height: 350px;
+      padding-right: 10%;
+      min-height: auto;
+      height: auto;
+  }
+  .our-mission .half.left.exploded img {
+      height: auto;
+      width: 100%;
+  }
+}
 /*/////////////////////////*/
 /* hyperloop */
 /*/////////////////////////*/
