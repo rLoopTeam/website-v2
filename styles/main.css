@@ -207,7 +207,7 @@ input.list-button {cursor: pointer;}
 
 .team .top-subheader {
   background-color: black;
-  background: url('../assets/images/rloop-group.jpg');
+  background: url('../assets/images/rloop-group.jpg') 0 20%;;
 }
 
 .team .top-content {
