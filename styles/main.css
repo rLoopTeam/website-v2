@@ -171,17 +171,16 @@ input.list-button {cursor: pointer;}
 }
 
 .half-page{
-  height: 50vh;
   min-height: 50vh;
 }
 .three-quarter-page{
-  height: 75vh;
+  min-height: 75vh;
 }
 .full-page{
   height: 100vh;
 }
 .two-thirds-page{
-  height: 67vh;
+  min-height: 67vh;
 }
 
 .top-subheader{
@@ -232,9 +231,6 @@ input.list-button {cursor: pointer;}
   width: 100%;
 }
 
-.links-list a {
-    float: left;
-}
 
 a.text-normal {
   color: rgb(134, 171, 230);
@@ -456,6 +452,12 @@ img{
 .content-div.servetheloop{
   background-color: #F2F2F2;
 }
+.content-div.twitter{
+  background-color: #F2F2F2;
+}
+.content-div.twitter img{
+  max-height: 210px;
+}
 .servetheloop{
   height: auto;
 }
@@ -537,8 +539,9 @@ img{
   }
 }
 
-
+/*/////////////////////////*/
 /* hyperloop */
+/*/////////////////////////*/
 .content-div.hyperloop {
       background-image: url('../assets/images/hyperloop-will.png'), -webkit-linear-gradient(top, rgb(190, 211, 236) 0%, rgb(197, 234, 249) 30%, rgb(197, 234, 249) 98%, rgb(186, 221, 235) 100%);
       background-image: url('../assets/images/hyperloop-will.png'), -moz-linear-gradient(top, rgb(190, 211, 236) 0%, rgb(197, 234, 249) 30%, rgb(197, 234, 249) 98%, rgb(186, 221, 235) 100%);
@@ -550,6 +553,13 @@ img{
   background-position: 50% 0;
   background-color: #C5EAF9;
   height: 100vh;
+}
+
+@media (max-width: 640px) {
+  .hyperloop .title-header .megatext strong {
+      font-size: 50px;
+      font-family: 'roboto_slab_light', Helvetica, Arial, sans-serif;
+  }
 }
 /*/////////////////////////*/
 /* our team */
@@ -681,6 +691,7 @@ img{
     vertical-align: top;
   }
 }
+
 /*///////////////*/
 /* press */
 /*///////////////*/
@@ -688,19 +699,32 @@ img{
   text-align: center;
 }
 .title-header .megatext strong {
-    font-size: 10vw;
+    font-size: 100px;
     font-family: 'roboto_slab_light', Helvetica, Arial, sans-serif;
 }
 .title-header .content.bottom {
-    padding-bottom: 10%;
+    padding-bottom: 0;
 }
 @media (max-width: 840px) {
+  .top-subheader .megatext {
+      padding-top: 0;
+  }
+  .title-header .megatext strong {
+      font-size: 70px;
+      font-family: 'roboto_slab_light', Helvetica, Arial, sans-serif;
+  }
   .title-header .content.bottom {
       top: 75%;
       transform: translateY(-50%);
       -webkit-transform: translateY(-50%);
   }
+  
 }
+.top-subheader .megatext {
+    padding-top: 0;
+    padding-bottom: 30px;
+}
+
 
 .title-header {
     height: 35vh;
