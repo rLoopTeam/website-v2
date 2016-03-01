@@ -10,20 +10,6 @@
 </head>
 <body>
 
-  <!-- FIXME: misnomer. This is actually the navbar -->
-  <div class="header">
-    <a href="/"><img class="logo" src="../assets/images/logo-white.png"></a>
-    <span class="hamburger" onclick="toggleHamburgerMenu()">≡</span>
-    <ul class="navbar">
-      <li><a href="team">Our Team</a></li>
-      <li><a href="hyperloop">The Hyperloop</a></li>
-      <li><a href="press">Press</a></li>
-      <li><a href="contact">Contact</a></li>
-      <li>|</li>
-      <li><a target="_none" href="http://rloop.tictail.com/">Shop</a></li>
-    </ul>
-  </div>
-
   <div class="{{ cssName }} main-content">
     <!-- real header -->
     {% block bigHeader %}
@@ -40,6 +26,21 @@
       </div>
     {% endblock %}
     {% block main %} There should be something here. (This is bad) {% endblock %}
+  </div>
+
+  <!-- FIXME: misnomer. This is actually the navbar -->
+  <!-- This goes below the actual header so that it's on top, z-wise -->
+  <div class="header">
+    <a href="/"><img class="logo" src="../assets/images/logo-white.png"></a>
+    <span class="hamburger" onclick="toggleHamburgerMenu()">≡</span>
+    <ul class="navbar">
+      <li><a href="team">Our Team</a></li>
+      <li><a href="hyperloop">The Hyperloop</a></li>
+      <li><a href="press">Press</a></li>
+      <li><a href="contact">Contact</a></li>
+      <li>|</li>
+      <li><a target="_none" href="http://rloop.tictail.com/">Shop</a></li>
+    </ul>
   </div>
 
   <div class="footer">

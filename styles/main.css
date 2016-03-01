@@ -688,8 +688,11 @@ img{
   text-align: center;
 }
 .title-header .megatext strong {
-    font-size: 250%;
+    font-size: 10vw;
     font-family: 'roboto_slab_light', Helvetica, Arial, sans-serif;
+}
+.title-header .content.bottom {
+    padding-bottom: 10%;
 }
 @media (max-width: 840px) {
   .title-header .content.bottom {
