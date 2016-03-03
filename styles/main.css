@@ -848,8 +848,36 @@ img{
   height: 100px;
 }
 
-/* footer */
+.report.small {
+  width: 30%;
+}
 
+.report.mid {
+  width: 45%;
+}
+
+@media (max-width: 1200px) {
+  .report.small {
+    width: 45%;
+  }
+
+  .report.mid {
+    width: 100%;
+  }
+}
+
+@media (max-width: 860px) {
+  .report.small {
+    width: 100%;
+  }
+
+  .report.mid {
+    width: 100%;
+  }
+}
+/*///////////////*/
+/* footer */
+/*/////////////////*/
 .footer{
   display: inline-block;
   min-height: 140px;

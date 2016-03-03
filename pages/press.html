@@ -25,7 +25,7 @@
   {% for row in stories %}
     {% set width = 90 / row.length %}
     {% for story in row %}
-      <div class="report" style="border-color: {{ story.color }}; width: {{ width }}%;">
+      <div class="report {{story.parentCSSClass}}" style="border-color: {{ story.color }};">
         <a href="{{ story.link }}" target="_blank">
           <div class="logo">
             <img src="../assets/images/{{ story.name }}.png">
