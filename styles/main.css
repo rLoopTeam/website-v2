@@ -781,7 +781,7 @@ img{
       transform: translateY(-50%);
       -webkit-transform: translateY(-50%);
   }
-  
+
 }
 .top-subheader .megatext {
     padding-top: 0;
@@ -848,33 +848,13 @@ img{
   height: 100px;
 }
 
-.report.small {
-  width: 30%;
-}
-
-.report.mid {
-  width: 45%;
-}
-
 @media (max-width: 1200px) {
-  .report.small {
-    width: 45%;
-  }
-
-  .report.mid {
-    width: 100%;
+  .report {
+    /* !important because the default width is set with a style attribute */
+    width: 100% !important;
   }
 }
 
-@media (max-width: 860px) {
-  .report.small {
-    width: 100%;
-  }
-
-  .report.mid {
-    width: 100%;
-  }
-}
 /*///////////////*/
 /* footer */
 /*/////////////////*/

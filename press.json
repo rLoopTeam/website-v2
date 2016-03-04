@@ -2,7 +2,6 @@
   [
     {
       "name": "motherboard",
-      "parentCSSClass": "mid",
       "title": "Meet the Redditors Who Designed a Hyperloop Pod",
       "link": "http://motherboard.vice.com/en_ca/read/meet-the-redditors-who-designed-a-hyperloop-pod",
       "color": "#000000",
@@ -10,7 +9,6 @@
     },
     {
       "name": "verge",
-      "parentCSSClass": "mid",
       "title": "How to build a Hyperloop",
       "link": "http://www.theverge.com/2016/2/3/10904424/hyperloop-design-competition-report-texas-elon-musk",
       "color": "#FF5020",
@@ -20,7 +18,6 @@
   [
     {
       "name": "fortune",
-      "parentCSSClass": "small",
       "title": "\"... and one non-university team organized through online forum Reddit, advanced through the first phase of the competition and will test their pods this summer ...\"",
       "link": "http://fortune.com/2016/01/31/mit-wins-hyperloop-competition-and-elon-musk-drops-in",
       "color": "#000000",
@@ -28,7 +25,6 @@
     },
     {
       "name": "psfk",
-      "parentCSSClass": "small",
       "title": "How to build a Hyperloop",
       "link": "http://www.psfk.com/2016/02/rloop-open-source-online-think-tank-model-hyperloop-spacex-design-weekend-winners.html",
       "color": "#673C95",
@@ -36,7 +32,6 @@
     },
     {
       "name": "electrek",
-      "parentCSSClass": "small",
       "title": "Elon Musk on the Hyperloop: “I’m starting to think this is really going to happen.” – MIT and Reddit won the SpaceX Hyperloop Pod Design Competition",
       "link": "http://electrek.co/2016/02/01/hyperloop-mit-reddit-pod-competition/",
       "color": "#C7EDFA",
@@ -46,7 +41,6 @@
   [
     {
       "name": "tnt",
-      "parentCSSClass": "mid",
       "title": "A crowd sourced team from Reddit took the highest honor for Non-Student Team.",
       "link": "https://youtu.be/7R-_HtFXZ4k?t=26m2s",
       "color": "#000000",
@@ -54,7 +48,6 @@
     },
     {
       "name": "autoevolution",
-      "parentCSSClass": "mid",
       "title": "rLoop Is the Latest Team Hellbent on Making Hyperloop a Reality",
       "link": "http://www.autoevolution.com/news/rloop-is-the-latest-team-hellbent-on-making-hyperloop-a-reality-104353.html",
       "color": "#000000",
@@ -64,7 +57,6 @@
   [
     {
       "name": "electrek",
-      "parentCSSClass": "small",
       "title": "Reddit came together and created an Hyperloop pod design to help kickstart Elon Musk’s “fifth mode of transportation”",
       "link": "http://electrek.co/2016/01/29/reddit-hyperloop-pod-design-spacex/",
       "color": "#C7EDFA",
@@ -72,7 +64,6 @@
     },
     {
       "name": "psfk",
-      "parentCSSClass": "small",
       "title": "rLoop: We Are Pushing the Limits of the Open Source, Online Think Tank Model",
       "link": "http://www.psfk.com/2015/08/hyperloop-competition-spacex-rloop-reddit.html",
       "color": "#673C95",
@@ -80,7 +71,6 @@
     },
     {
       "name": "joestrandell",
-      "parentCSSClass": "small",
       "title": "A Conversation About Hyperloop",
       "link": "https://youtu.be/KYWwiL6h_nA",
       "color": "#000000",
