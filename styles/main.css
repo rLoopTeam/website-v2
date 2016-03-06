@@ -477,6 +477,7 @@ img{
 }
 
 .content-div.latest-news{
+  display: none;
   background-color: #FFF;
 }
 
