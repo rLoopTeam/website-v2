@@ -459,6 +459,7 @@ img{
   background-color: #F2F2F2;
 }
 .content-div.twitter{
+  display: none;
   background-color: #F2F2F2;
 }
 .content-div.twitter img{
