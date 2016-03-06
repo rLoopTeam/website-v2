@@ -72,6 +72,9 @@
   document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
   ':35729/livereload.js?snipver=1"></' + 'script>')
 </script>
+{% else %}
+{# In Production, Google Analytics #}
+<script>!function(r,L,o,O,p){r.GoogleAnalyticsObject=o;r[o]||(r[o]=function(){(r[o].q=r[o].q||[]).push(arguments)});r[o].l=+new Date;O=L.createElement('script');p=L.scripts[0];O.src='//www.google-analytics.com/analytics.js';p.parentNode.insertBefore(O,p)}(window,document,'ga');ga('create','UA-72211727-3','auto');ga('send','pageview');</script>
 {% endif %}
 </body>
 </html>
