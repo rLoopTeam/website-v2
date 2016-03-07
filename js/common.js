@@ -15,40 +15,42 @@ Math.easeInOutQuad = function (t, b, c, d) {
 
 window.onload = function() {
 	var frontpageButton = document.querySelector("#front-down-page-arrow");
-	frontpageButton.addEventListener("click",runScroll,false);
+	if(frontpageButton) {
+		frontpageButton.addEventListener("click",runScroll,false);
 	
-	function runScroll() {
-		var pageHeight 	= window.innerHeight;
-		var newPos 		= document.documentElement.scrollTop || document.body.parentNode.scrollTop || document.body.scrollTop;
-		var startPos 	= newPos;
+		function runScroll() {
+			var pageHeight 	= window.innerHeight;
+			var newPos 		= document.documentElement.scrollTop || document.body.parentNode.scrollTop || document.body.scrollTop;
+			var startPos 	= newPos;
 
-		var step 		= 0;
-    	var start    	= startPos;
-    	var change		= pageHeight - newPos;
-    	var duration 	= 180;
+			var step 		= 0;
+	    	var start    	= startPos;
+	    	var change		= pageHeight - newPos;
+	    	var duration 	= 180;
 
-		var timeout;
-		var amount;
-		
-		animate();
+			var timeout;
+			var amount;
+			
+			animate();
 
-		function animate(){
-            if (step >= duration)
-            	return;
+			function animate(){
+	            if (step >= duration)
+	            	return;
 
-            setTimeout(function(){
+	            setTimeout(function(){
 
-		    	amount = Math.easeInOutQuad(step, start, change, duration);
+			    	amount = Math.easeInOutQuad(step, start, change, duration);
 
-		    	document.documentElement.scrollTop = amount;
-			    document.body.parentNode.scrollTop = amount;
-			    document.body.scrollTop = amount;
+			    	document.documentElement.scrollTop = amount;
+				    document.body.parentNode.scrollTop = amount;
+				    document.body.scrollTop = amount;
 
-            	animate();
+	            	animate();
 
-            }, 1);
+	            }, 1);
 
-			step++;
+				step++;
+			}
 		}
 	}
 }
