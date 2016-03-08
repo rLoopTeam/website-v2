@@ -38,7 +38,7 @@ function getContext (pageName) {
 				{ "name":"Joakim Forslund", "title": "Software Lead", "location": "Sweden", "imageUrl": "assets/images/members/joakim.png" },
 				{ "name":"José Peña;", "title": "Thermal Lead", "location": "Spain", "imageUrl": "assets/images/members/jos___jrockwar__200.jpg" },
 				{ "name":"Marek Gutt-Mostowy", "title": "Controls Lead", "location": "Poland", "imageUrl": "assets/images/members/marek_gutt-mostowy_m4rol__200.jpg" },
-				{ "name":"Adrian Kelly", "title": "Electrical Lead", "location": "USA", "imageUrl": "assets/images/members/snoo.png" },
+				{ "name":"Adrian Kelly", "title": "Electrical Lead", "location": "USA", "imageUrl": "assets/images/members/adrian_electrical_lead.jpg" },
 				{ "name":"Richard P. Behiel", "title": "PR Lead", "location": "USA", "imageUrl": "assets/images/members/rbe.png" },
 				{ "name":"Kevin Burville", "title": "Social Media Lead", "location": "Canada", "imageUrl": "assets/images/members/kevin_burville_smlead.jpg" },
 				{ "name":"Ari Porad", "title": "IT Lead", "location": "USA", "imageUrl": "assets/images/members/apo.png" },
