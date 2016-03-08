@@ -189,25 +189,30 @@ input.list-button {cursor: pointer;}
   /* I don't know why we need this (!important), but we do */
   background-repeat: no-repeat !important;
   background-position: center top;
-  background-size: cover !important;
 }
 
 .front-page .top-subheader{
   background: url('../assets/images/shutterstock_90095539.jpg');
   background-position: 50% 25%;
+  background-size: cover !important;
 }
 
 .hyperloop .top-subheader{
-  background: url('../assets/images/rLoop.74.jpg');
+  background: url('../assets/images/TheHyperloop.png');
+  background-position: 55% 25%;
+  -webkit-background-size: contain;
+  background-size: contain;
 }
 
 .press .top-subheader {
   background: url('../assets/images/hyperloop-award-signed-by-elon-musk.jpg');
+  background-size: cover !important;
 }
 
 .team .top-subheader {
   background-color: black;
   background: url('../assets/images/rloop-group.jpg') 0 20%;;
+  background-size: cover !important;
 }
 
 .team .top-content {
