@@ -436,8 +436,72 @@ img{
   }
 }
 
-/* frontpage */
+/* pop up */
+.popup-wrapper {
+      z-index: 300;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 30vh;
+}
+.popup-wrapper .popup {
+  background-color: white;
+  width: 60%;
+  display: inline-block;
+  -webkit-box-shadow: 0px 3px 3px 5px rgba(0,0,0,0.4);
+     -moz-box-shadow: 0px 3px 3px 5px rgba(0,0,0,0.4);
+          box-shadow: 0px 3px 3px 5px rgba(0,0,0,0.4);
+}
+.popup-wrapper .popup .header{
+  height: auto;
+  background-color: black;
+  position: relative;
+}
+.popup-wrapper .popup .header h1 {
+    line-height: 60px;
+}
+.button-container .button-division {
+  width: 33.333%;
+  float: left;
+}
+.button-container .button-division p{
+  margin-bottom: 15px;
+}
+.popup-wrapper .popup .inner {
+  color: #2BA9CF;
+  position: relative;
+  padding: 25px;
+}
+.popup-wrapper .popup .inner .h1 {
+  font-size: 150%;
+}
 
+.popup-wrapper .popup .inner .campaign-link {
+    margin: 20px 0 15px 0;
+    font-size: 130%;
+}
+
+#popup-close-link {
+    position: absolute;
+    right: 20px;
+    color: white;
+    font-size: 60%;
+}
+
+@media (max-width: 960px) {
+  .button-container .button-division {
+    width: 100%;
+    float: left;
+  }
+  .popup .header h1 {
+    font-size: 170%;
+    line-height: 45px;
+  }
+}
+
+/* frontpage */
 .front-page .content.text p {
     font-weight: 600;
 }

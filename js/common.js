@@ -3,6 +3,7 @@ function toggleHamburgerMenu(){
   var navbar = document.querySelector('.navbar')
   navbar.classList.toggle('mobile-nav');
 }
+
 // easing function http://goo.gl/5HLl8
 Math.easeInOutQuad = function (t, b, c, d) {
 	t /= d/2;
@@ -14,7 +15,11 @@ Math.easeInOutQuad = function (t, b, c, d) {
 };
 
 window.onload = function() {
-	var frontpageButton = document.querySelector("#front-down-page-arrow");
+
+	var frontpageButton = document.querySelector("#front-down-page-arrow")
+		closebutton = document.getElementById("popup-close-link");
+
+
 	if(frontpageButton) {
 		frontpageButton.addEventListener("click",runScroll,false);
 	
@@ -52,5 +57,19 @@ window.onload = function() {
 				step++;
 			}
 		}
+	}
+
+	// document.getElementById('campaign-popup').onclick = function(e) {
+	//     if(e.target != document.getElementById('content-area')) {
+	//         document.getElementById('content-area').innerHTML = 'You clicked outside.';          
+	//     } else {
+	//         document.getElementById('content-area').innerHTML = 'Display Contents';   
+	//     }
+	// }
+
+	if(closebutton) {
+		closebutton.addEventListener("click",function(e){
+		    closebutton.parentElement.parentElement.parentElement.parentElement.style.display = 'none'; 
+		},false);
 	}
 }
