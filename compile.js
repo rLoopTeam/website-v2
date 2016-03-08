@@ -28,7 +28,7 @@ function getContext (pageName) {
 		"team":{
 			"members": [
 				{ "name":"Brent Lessard", "title": "Project Manager", "location": "Canada", "imageUrl": "assets/images/members/ble.png" },
-				{ "name":"Thomas Lambot", "title": "Engineering Lead", "location": "Belgium", "imageUrl": "assets/images/members/tla.png" },
+				{ "name":"Thomas Lambot", "title": "Engineering Lead", "location": "Belgium/USA", "imageUrl": "assets/images/members/tla.png" },
 				{ "name":"Michael Cook", "title": "Mechanical Lead", "location": "New Zealand", "imageUrl": "assets/images/members/mco.png" },
 				{ "name":"Kyle Zienin", "title": "Systems Engineering Lead", "location": "USA", "imageUrl": "assets/images/members/kzl.png" },
 				{ "name":"Scott Leonard", "title": "Structures-Aero Lead", "location": "USA", "imageUrl": "assets/images/members/sle.png" },
