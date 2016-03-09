@@ -483,7 +483,8 @@ img{
     font-size: 130%;
 }
 
-.campaign-link:link .campaigh-link:visited {
+.campaign-link:link, .campaign-link:visited {
+    width:inherit;
     background-color: white;
     color: #42b2d4;
     border: 2px solid #42b2d4;
@@ -491,9 +492,15 @@ img{
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    transition: background-color 0.2s, color 0.2s;
+    transition-property: background-color, color;
+    transition-duration: 0.2s, 0.2s;
+    transition-timing-function: initial, initial;
+    transition-delay: initial, initial;
 }
 
-.campaign-link:hover .campaign-link:active {
+.campaign-link:hover, .campaign-link:active {
+    width:inherit;
     background-color: #42b2d4;
     color: white;
 }
