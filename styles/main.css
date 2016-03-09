@@ -483,6 +483,21 @@ img{
     font-size: 130%;
 }
 
+.campaign-link:link .campaigh-link:visited {
+    background-color: white;
+    color: #42b2d4;
+    border: 2px solid #42b2d4;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.campaign-link:hover .campaign-link:active {
+    background-color: #42b2d4;
+    color: white;
+}
+
 #popup-close-link {
     position: absolute;
     right: 20px;
