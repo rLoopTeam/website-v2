@@ -21,9 +21,7 @@ window.onload = function() {
 
 
 	if(frontpageButton) {
-		frontpageButton.addEventListener("click",runScroll,false);
-	
-		function runScroll() {
+		frontpageButton.addEventListener("click",function () {
 			var pageHeight 	= window.innerHeight;
 			var newPos 		= document.documentElement.scrollTop || document.body.parentNode.scrollTop || document.body.scrollTop;
 			var startPos 	= newPos;
@@ -56,7 +54,7 @@ window.onload = function() {
 
 				step++;
 			}
-		}
+		},false);
 	}
 
 	// document.getElementById('campaign-popup').onclick = function(e) {
