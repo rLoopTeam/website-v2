@@ -28,6 +28,7 @@ function getContext (pageName) {
 		"team":{
 			"members": [
 				{ "name":"Brent Lessard", "title": "Project Manager", "location": "Canada", "imageUrl": "assets/images/members/ble.png" },
+				{ "name":"Ilyas Vali", "title": "Assistant Project Manager", "location": "UK", "imageUrl": "assets/images/members/ilyas__assistant_proj.png" },
 				{ "name":"Thomas Lambot", "title": "Engineering Lead", "location": "Belgium/USA", "imageUrl": "assets/images/members/tla.png" },
 				{ "name":"Michael Cook", "title": "Mechanical Lead", "location": "New Zealand", "imageUrl": "assets/images/members/mco.png" },
 				{ "name":"Kyle Zienin", "title": "Systems Engineering Lead", "location": "USA", "imageUrl": "assets/images/members/kzl.png" },
@@ -46,7 +47,7 @@ function getContext (pageName) {
 				{ "name":"Gregory Georgianna", "title": "Video Lead", "location": "USA", "imageUrl": "assets/images/members/gregory_video.jpg" },
 				{ "name":"Eoghan Kidney", "title": "Creative Media Lead", "location": "Ireland", "imageUrl": "assets/images/members/eoghan_creative_media.jpg" },
 				{ "name":"Paul Le Henaff", "title": "Game Development Lead", "location": "UK", "imageUrl": "assets/images/members/paul_game_dev.jpg" },
-				{ "name":"Jason Belzer", "title": "Business Development", "location": "USA", "imageUrl": "assets/images/members/paul_game_dev.jpg" }
+				{ "name":"Jason Belzer", "title": "Business Development", "location": "USA", "imageUrl": "assets/images/members/jason_business.jpg" }
 			]
 		},
 	    "press": {
