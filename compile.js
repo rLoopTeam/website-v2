@@ -44,7 +44,9 @@ function getContext (pageName) {
 				{ "name":"Ari Porad", "title": "IT Lead", "location": "USA", "imageUrl": "assets/images/members/apo.png" },
 				{ "name":"Henry McKay", "title": "Finance Lead", "location": "New Zealand", "imageUrl": "assets/images/members/henry_mckay_finance_200.jpg" },
 				{ "name":"Gregory Georgianna", "title": "Video Lead", "location": "USA", "imageUrl": "assets/images/members/gregory_video.jpg" },
-				{ "name":"Eoghan Kidney", "title": "Creative Media Lead", "location": "Ireland", "imageUrl": "assets/images/members/eoghan_creative_media.jpg" }
+				{ "name":"Eoghan Kidney", "title": "Creative Media Lead", "location": "Ireland", "imageUrl": "assets/images/members/eoghan_creative_media.jpg" },
+				{ "name":"Paul Le Henaff", "title": "Game Development Lead", "location": "UK", "imageUrl": "assets/images/members/paul_game_dev.jpg" },
+				{ "name":"Jason Belzer", "title": "Business Development", "location": "USA", "imageUrl": "assets/images/members/paul_game_dev.jpg" }
 			]
 		},
 	    "press": {
