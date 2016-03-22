@@ -830,14 +830,6 @@ img{
   font-weight: normal;
   font-size: 100%;
 }
-.content-div.partnership {
-  background-image: url('../assets/images/partnership.png'), -webkit-linear-gradient(top, #1A77B9 0%, #00BDEC 29%, #00BCEA 95%, #01B3DE 100%);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 50% 0;
-  min-height: none;
-}
 
 @media (max-width: 900px) {
   .member {
