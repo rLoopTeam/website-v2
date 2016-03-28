@@ -1,4 +1,42 @@
 [
+  [{
+      "name": "forbes",
+      "title": "Crowdsourcing the Hyperloop: How a Group of Redditors are Taking on Elon Musk's Challenge",
+      "link": "http://www.forbes.com/sites/jasonbelzer/2016/03/07/crowdsourcing-the-hyperloop-how-a-group-of-redditors-are-taking-on-elon-musk/#5e3bc7421de8",
+      "color": "#4A4A4A",
+      "textCSS": "font-family: 'roboto_slab_light', Helvetica, Arial, sans-serif; font-size: 170%;"
+    },
+    {
+      "name": "10xlabs",
+      "title": "Hyperloop Makers Interview - rLoop, Founded Upon the Internet",
+      "link": "https://soundcloud.com/10xlabs/hyperloop-makers-interview-rloop",
+      "color": "#015770",
+      "textCSS": "color: black; font-family: 'open_sans_bold', Helvetica, Arial, sans-serif; font-weight: 900; font-size: 130%;"
+    }
+  ],
+  [
+    {
+      "name": "intheloop",
+      "title": "rLoop Interview with Brent and Tom",
+      "link": "https://www.youtube.com/watch?v=CyGA4ZRl2jQ",
+      "color": "#000000",
+      "textCSS": ""
+    },
+    {
+      "name": "techstuffed",
+      "title": "Q&A with rLoop Project Manager Brent Lessard",
+      "link": "http://www.techstuffed.com/qa-rloop-project-manager-brent-lessard-pods-hyperloop-future/",
+      "color": "#4CB8FF",
+      "textCSS": ""
+    },
+    {
+      "name": "techau",
+      "title": "Help Fund the Future of Transport, rLoop Hyperloop Pod Hits IndieGoGo",
+      "link": "http://techau.com.au/help-fund-the-future-of-transport-rloop-hyperloop-pod-hits-indiegogo/",
+      "color": "#213599",
+      "textCSS": "font-family: 'roboto_slab_bold', Helvetica, Arial, sans-serif; font-size: 90%; font-weight: 900;"
+    }
+  ],
   [
     {
       "name": "motherboard",
@@ -25,7 +63,7 @@
     },
     {
       "name": "psfk",
-      "title": "How to build a Hyperloop",
+      "title": "rLoop: We Are Pushing the Limits of the Open Source, Online Think Tank Model",
       "link": "http://www.psfk.com/2016/02/rloop-open-source-online-think-tank-model-hyperloop-spacex-design-weekend-winners.html",
       "color": "#673C95",
       "textCSS": "color: #673C95; font-family: 'roboto_slab_light', Helvetica, Arial, sans-serif; font-size: 120%;"
@@ -64,7 +102,7 @@
     },
     {
       "name": "psfk",
-      "title": "rLoop: We Are Pushing the Limits of the Open Source, Online Think Tank Model",
+      "title": "How to build a Hyperloop",
       "link": "http://www.psfk.com/2015/08/hyperloop-competition-spacex-rloop-reddit.html",
       "color": "#673C95",
       "textCSS": "color: #673C95; font-family: 'roboto_slab_light', Helvetica, Arial, sans-serif; font-size: 120%;"
