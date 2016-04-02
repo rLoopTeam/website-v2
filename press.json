@@ -1,4 +1,12 @@
-[
+﻿[
+  [{
+      "name": "newswire",
+      "title": "rLoop Announces Soylent Sponsorship of New Hyperloop Team",
+      "link": "https://www.newswire.com/news/rloop-announces-soylent-sponsorship-of-new-hyperloop-team-9690657",
+      "color": "#1357A8",
+      "textCSS": "font-size: 180%;"
+    }
+  ],
   [{
       "name": "forbes",
       "title": "Crowdsourcing the Hyperloop: How a Group of Redditors are Taking on Elon Musk's Challenge",
