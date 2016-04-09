@@ -47,7 +47,8 @@ function getContext (pageName) {
 				{ "name":"Gregory Georgianna", "title": "Video Lead", "location": "USA", "imageUrl": "assets/images/members/gregory_video.jpg" },
 				{ "name":"Eoghan Kidney", "title": "Creative Media Lead", "location": "Ireland", "imageUrl": "assets/images/members/eoghan_creative_media.jpg" },
 				{ "name":"Paul Le Henaff", "title": "Game Development Lead", "location": "UK", "imageUrl": "assets/images/members/paul_game_dev.jpg" },
-				{ "name":"Jason Belzer", "title": "Business Development", "location": "USA", "imageUrl": "assets/images/members/jason_business.jpg" }
+				{ "name":"Jason Belzer", "title": "Business Development Lead", "location": "USA", "imageUrl": "assets/images/members/jason_business.jpg" },
+				{ "name":"Ashley Makay", "title": "Social Media Lead", "location": "Canada", "imageUrl": "assets/images/members/ashley_can.jpg" }
 			]
 		},
 	    "press": {
