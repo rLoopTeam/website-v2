@@ -48,7 +48,19 @@ function getContext (pageName) {
 				{ "name":"Eoghan Kidney", "title": "Creative Media Lead", "location": "Ireland", "imageUrl": "assets/images/members/eoghan_creative_media.jpg" },
 				{ "name":"Paul Le Henaff", "title": "Game Development Lead", "location": "UK", "imageUrl": "assets/images/members/paul_game_dev.jpg" },
 				{ "name":"Jason Belzer", "title": "Business Development Lead", "location": "USA", "imageUrl": "assets/images/members/jason_business.jpg" },
-				{ "name":"Ashley Makay", "title": "Social Media Lead", "location": "Canada", "imageUrl": "assets/images/members/ashley_can.jpg" }
+				{ "name":"Ashley Makay", "title": "Social Media Lead", "location": "Canada", "imageUrl": "assets/images/members/ashley_can.jpg" },
+				{ "name":"Jasper Beckers", "title": "Mechanical", "location": "Netherlands", "imageUrl": "assets/images/members/jasper_beckers.jpg" },
+				{ "name":"Chris Smith", "title": "Aero", "location": "USA", "imageUrl": "assets/images/members/chris_smith.jpg" },
+				{ "name":"Dart Ken Poon", "title": "Aero", "location": "?", "imageUrl": "assets/images/members/dart_ken_poon.jpg" },
+				{ "name":"Corey Stein", "title": "Aero", "location": "?", "imageUrl": "assets/images/members/corey_stein.jpg" },
+				{ "name":"Peter Stephan Gschladt", "title": "?", "location": "Germany", "imageUrl": "assets/images/members/peter_stephan_gschladt.jpg" },
+				{ "name":"Kevin Miller", "title": "Aero/Mechanical", "location": "USA", "imageUrl": "assets/images/members/kevin_miller.jpg" },
+				{ "name":"Clarence Akagu", "title": "Mechanical", "location": "Nigeria", "imageUrl": "assets/images/members/clarence_akagu.jpg" },
+				{ "name":"Michael Elmore", "title": "Numbers Simulation", "location": "USA", "imageUrl": "assets/images/members/michael_elmore.jpg" },
+				{ "name":"Jenico J", "title": "Numbers Simulation", "location": "Inida", "imageUrl": "assets/images/members/jenico_j.jpg" },
+				{ "name":"Iachlan Grogan", "title": "Systems", "location": "Australia", "imageUrl": "assets/images/members/iachlan_grogan.jpg" },
+				{ "name":"Alan Espinoza", "title": "Engineering Systems", "location": "Nigeria", "imageUrl": "assets/images/members/alan_espinoza.jpg" },
+				{ "name":"Corne Kooyman", "title": "Wed Development", "location": "South Africa", "imageUrl": "assets/images/members/corne_kooyman.jpg" }
 			]
 		},
 	    "press": {
