@@ -60,7 +60,18 @@ function getContext (pageName) {
 				{ "name":"Jenico J", "title": "Numbers Simulation", "location": "Inida", "imageUrl": "assets/images/members/jenico_j.jpg" },
 				{ "name":"Iachlan Grogan", "title": "Systems", "location": "Australia", "imageUrl": "assets/images/members/iachlan_grogan.jpg" },
 				{ "name":"Alan Espinoza", "title": "Engineering Systems", "location": "Nigeria", "imageUrl": "assets/images/members/alan_espinoza.jpg" },
-				{ "name":"Corne Kooyman", "title": "Wed Development", "location": "South Africa", "imageUrl": "assets/images/members/corne_kooyman.jpg" }
+				{ "name":"Corne Kooyman", "title": "Wed Development", "location": "South Africa", "imageUrl": "assets/images/members/corne_kooyman.jpg" },
+				{ "name":"Jari van der Salm", "title": "Finance", "location": "Holland", "imageUrl": "assets/images/members/jari_van_der_salm.jpg" },
+				{ "name":"Gopal Bidari", "title": "Video", "location": "USA", "imageUrl": "assets/images/members/gopal_bidari.jpg" },
+				{ "name":"Cody Huang", "title": "Electrical Engineering", "location": "USA", "imageUrl": "assets/images/members/cody_huang.jpg" },
+				{ "name":"Denis Tudor", "title": "Romania", "location": "Romania", "imageUrl": "assets/images/members/denis_tudor.jpg" },
+				{ "name":"Cihan Bedek", "title": "Web Development", "location": "Finland", "imageUrl": "assets/images/members/cihan_bedek.jpg" },
+				{ "name":"Matthew Marshall", "title": "Finance", "location": "Canada", "imageUrl": "assets/images/members/matthew_marshall.jpg" },
+				{ "name":"Alex Hale", "title": "Public Relations", "location": "United Kingdom", "imageUrl": "assets/images/members/alex_hale.jpg" },
+				{ "name":"Nathaniel Thompson", "title": "Public Relations", "location": "", "imageUrl": "assets/images/members/nathaniel_thompson.jpg" },
+				{ "name":"Ralph Steenblik", "title": "Public Relations", "location": "", "imageUrl": "assets/images/members/ralph_steenblik.jpg" },
+				{ "name":"Matt Malcom", "title": "Public Relations", "location": "New Zealand", "imageUrl": "assets/images/members/matt_malcom.jpg" }
+
 			]
 		},
 	    "press": {
