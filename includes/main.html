@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="icon" href="../assets/images/favicon-32.png">
   <script type="text/javascript" src="../js/common.js"></script>
+  {% block header %}
+  {% endblock %}
 </head>
 <body>
 
@@ -37,6 +39,7 @@
       <li><a href="index">rLoop</a></li>
       <li><a href="team">Our Team</a></li>
       <li><a href="hyperloop">The Hyperloop</a></li>
+      <li><a href="sponsors">Sponsors</a></li>
       <li><a href="press">Press</a></li>
       <li><a href="mailto:contact@rloop.org?subject=Hi!" target="_blank">Contact</a></li>
       <li>|</li>
@@ -76,5 +79,6 @@
 {# In Production, Google Analytics #}
 <script>!function(r,L,o,O,p){r.GoogleAnalyticsObject=o;r[o]||(r[o]=function(){(r[o].q=r[o].q||[]).push(arguments)});r[o].l=+new Date;O=L.createElement('script');p=L.scripts[0];O.src='//www.google-analytics.com/analytics.js';p.parentNode.insertBefore(O,p)}(window,document,'ga');ga('create','UA-72211727-3','auto');ga('send','pageview');</script>
 {% endif %}
+{% block footer %}<!--footer code--> {% endblock %}
 </body>
 </html>
