@@ -1,23 +1,29 @@
 [
-  {
-    "name":"ARXPAX",
-    "imageUrl":"assets/images/sponsors/arxpax.jpg",
-    "bio":""
-  },
-  {
-    "name":"Autodesk Fusion360",
-    "imageUrl":"assets/images/sponsors/autodesk.jpg",
-    "bio":""
-  },
-  {
-    "name":"McNichols",
-    "imageUrl":"assets/images/sponsors/mcnichols.jpg",
-    "bio":""
-  },
-  {
-    "name":"R Systems",
-    "imageUrl":"assets/images/sponsors/rsystem.jpg",
-    "bio":""
-  }
 
+    {
+      "name":"soylent",
+      "imageUrl":"assets/images/sponsors/soylent.jpg",
+      "bio":""
+    },
+
+    {
+      "name":"ARXPAX",
+      "imageUrl":"assets/images/sponsors/arxpax.jpg",
+      "bio":""
+    },
+    {
+      "name":"Autodesk Fusion360",
+      "imageUrl":"assets/images/sponsors/autodesk.jpg",
+      "bio":""
+    },
+    {
+      "name":"McNichols",
+      "imageUrl":"assets/images/sponsors/mcnichols.jpg",
+      "bio":""
+    },
+    {
+      "name":"R Systems",
+      "imageUrl":"assets/images/sponsors/rsystem.jpg",
+      "bio":""
+    }
 ]
