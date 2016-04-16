@@ -22,6 +22,7 @@
   { "name":"Jason Belzer", "title": "Business Development Lead", "location": "USA", "imageUrl": "assets/images/members/jason_business.jpg" },
   { "name":"Kevin Burville", "title": "Social Media", "location": "Canada", "imageUrl": "assets/images/members/kevin_burville_smlead.jpg" },
   { "name":"Jasper Beckers", "title": "Mechanical", "location": "Netherlands", "imageUrl": "assets/images/members/jasper_beckers.png" },
+  { "name":"Gabriel Korgood", "title": "Aerodynamics/Web Development", "location": "USA", "imageUrl": "assets/images/members/gabe_aero.png" },
   { "name":"Chris Smith", "title": "Aerodynamics", "location": "USA", "imageUrl": "assets/images/members/chris_smith.png" },
   { "name":"Dart Ken Poon", "title": "Aerodynamics", "location": "", "imageUrl": "assets/images/members/dart_ken_poon.png" },
   { "name":"Corey Stein", "title": "Aerodynamics", "location": "", "imageUrl": "assets/images/members/corey_stein.png" },
@@ -33,10 +34,9 @@
   { "name":"Iachlan Grogan", "title": "Systems", "location": "Australia", "imageUrl": "assets/images/members/iachlan_grogan.png" },
   { "name":"Alan Espinoza", "title": "Engineering Systems", "location": "Nigeria", "imageUrl": "assets/images/members/alan_espinoza.png" },
   { "name":"Corne Kooyman", "title": "Web Development", "location": "South Africa", "imageUrl": "assets/images/members/corne_kooyman.png" },
-  { "name":"Gabriel Korgood", "title": "Aerodynamics/Web Development", "location": "USA", "imageUrl": "assets/images/members/gabe_aero.png" },
   { "name":"Jari van der Salm", "title": "Finance", "location": "Holland", "imageUrl": "assets/images/members/jari_van_der_salm.png" },
   { "name":"Gopal Bidari", "title": "Video", "location": "USA", "imageUrl": "assets/images/members/gopal_bidari.png" },
-  { "name":"Cody Huang", "title": "Electrical Engineering", "location": "USA", "imageUrl": "assets/images/members/cody_huang.png" },
+  { "name":"Cody Huang", "title": "Electrical", "location": "USA", "imageUrl": "assets/images/members/cody_huang.png" },
   { "name":"Denis Tudor", "title": "Electrical", "location": "Romania", "imageUrl": "assets/images/members/denis_tudor.png" },
   { "name":"Cihan Bebek", "title": "Web Development", "location": "Finland", "imageUrl": "assets/images/members/cihan_bebek.png" },
   { "name":"Matthew Marshall", "title": "Finance", "location": "Canada", "imageUrl": "assets/images/members/matthew_marshall.png" },
@@ -44,5 +44,6 @@
   { "name":"Nathaniel Thompson", "title": "Public Relations", "location": "", "imageUrl": "assets/images/members/nathaniel_thompson.png" },
   { "name":"Ralph Steenblik", "title": "Public Relations", "location": "", "imageUrl": "assets/images/members/ralph_steenblik.png" },
   { "name":"Matt Malcom", "title": "Public Relations", "location": "New Zealand", "imageUrl": "assets/images/members/matt_malcom.png" }
+  { "name":"Joseph Cirnigliaro", "title": "Electrical/Manufacturing", "location": "USA?", "imageUrl": "assets/images/members/joseph_cirnigliaro.png" }
 
 ]
