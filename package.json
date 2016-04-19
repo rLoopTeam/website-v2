@@ -18,7 +18,7 @@
   },
   "scripts": {
     "deploy:prod": "DEV=0 NODE_ENV=production npm run build && surge build --domain rloop.org",
-    "deploy:dev": "npm run build && surge build --domain ultralord.surge.sh",
+    "deploy:dev": "npm run build && surge build --domain https://rloop-beta.surge.sh",
     "build": "shjs compile.js",
     "_livereload": "livereload build",
     "_nodemon": "nodemon -q -e html,css,js,json -i build -i node_modules -x \"npm run build\"",
