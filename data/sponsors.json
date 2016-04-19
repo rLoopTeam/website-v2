@@ -1,0 +1,32 @@
+[
+    {
+      "name":"soylent",
+      "imageUrl":"assets/images/sponsors/soylentlarge.jpg",
+      "bio":"SoylentTM is a pioneer in food technology, delivering nutritionally-complete staple meals that provide all the essential nutrients required to fuel the human body. Soylent is produced with sustainability and efficiency in mind to create a convenient, nutritious, and affordable meal that is better for our health and the environment. CEO/Co- founder Rob Rhinehart, alongside fellow co-founders COO Matt Cauble, CTO John Coogan, and CMO David Renteln, developed Soylent after recognizing the need for a simpler, more efficient food source. The company is headquartered in Los Angeles, CA."
+    },
+    {
+      "name":"ARX PAX",
+      "imageUrl":"assets/images/sponsors/arxpax.jpg",
+      "bio":"Arx Pax is helping change the way we think about the problems we all face today. From clean water and air, safe and secure homes, buildings and communities, Arx Pax and the MFA technology we develop will improve the quality of life on earth."
+    },
+    {
+      "name":"Autodesk Fusion360",
+      "imageUrl":"assets/images/sponsors/autodesk.jpg",
+      "bio":"Fusion 360 is a cloud-based CAD/CAM tool for collaborative product development. Fusion 360 combines very fast and easy organic modeling with precise solid modeling, allowing you to make your designs manufacturable. Communicate your designs with renderings and drawings, then use its CAM capabilities to quickly generate toolpaths for CNC machines, or send your design to a 3D printer for rapid prototyping. Your data is kept safe and secure on the cloud, with unlimited storage and access."
+    },
+    {
+      "name":"McNichols",
+      "imageUrl":"assets/images/sponsors/mcnichols.jpg",
+      "bio":"McNICHOLS Company is North America’s leading supplier and fabricator of perforated metal, expanded metal, wire mesh, architectural metals and a variety of gratings products. Founded in 1952 by the late Robert L. McNichols, the company was established on his Christian values, high ethical standards and strong commitment to customer satisfaction. With metals service centers strategically placed from coast-to-coast, McNichols has a dedicated staff and communication network in place that can supply worldwide service."
+    },
+    {
+      "name":"R Systems",
+      "imageUrl":"assets/images/sponsors/rsystem.jpg",
+      "bio":"R Systems, founded in 1993, is a specialized IT Services & Solutions and IT-enabled Services provider catering to a wide range of global customers. We are endowed with some of the industry’s highest quality certifications and standards, including CMMI Level 5, PCMM Level 5, ISO 27001:2013 and ISO 9001:2008. Our IT services and solutions span five major verticals which include Telecom & Digital Media, Banking & Finance, HealthCare, Manufacturing & Logistics, and Government Services."
+    },
+    {
+      "name":"ANSYS",
+      "imageUrl":"assets/images/sponsors/ANSYS_logo.png",
+      "bio":"If you’ve ever seen a rocket launch, flown on an airplane, driven a car, used a computer, touched a mobile device, crossed a bridge, or put on wearable technology, chances are you’ve used a product where ANSYS software played a critical role in its creation. ANSYS is the global leader in engineering simulation. We help the world’s most innovative companies deliver radically better products to their customers. By offering the best and broadest portfolio of engineering simulation software, we help them solve the most complex design challenges and engineer products limited only by imagination."
+    }
+]

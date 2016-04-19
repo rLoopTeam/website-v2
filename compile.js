@@ -26,33 +26,14 @@ function getContext (pageName) {
 
 	const pagesContexts = {
 		"team":{
-			"members": [
-				{ "name":"Brent Lessard", "title": "Project Manager", "location": "Canada", "imageUrl": "assets/images/members/ble.png" },
-				{ "name":"Ilyas Vali", "title": "Assistant Project Manager", "location": "UK", "imageUrl": "assets/images/members/ilyas__assistant_proj.png" },
-				{ "name":"Thomas Lambot", "title": "Engineering Lead", "location": "Belgium/USA", "imageUrl": "assets/images/members/tla.png" },
-				{ "name":"Michael Cook", "title": "Mechanical Lead", "location": "New Zealand", "imageUrl": "assets/images/members/mco.png" },
-				{ "name":"Kyle Zienin", "title": "Systems Engineering Lead", "location": "USA", "imageUrl": "assets/images/members/kzl.png" },
-				{ "name":"Scott Leonard", "title": "Structures-Aero Lead", "location": "USA", "imageUrl": "assets/images/members/sle.png" },
-				{ "name":"Mohd Amir Hasan Khan", "title": "Numerical Simulation Lead", "location": "India", "imageUrl": "assets/images/members/mhk.png" },
-				{ "name":"Larry Joseph \"Joey\" Sharette Jr.", "title": "Manufacturing Lead", "location": "USA", "imageUrl": "assets/images/members/lsh.png" },
-				{ "name":"Shabab Hussain", "title": "Industrial Design Lead", "location": "Hong Kong", "imageUrl": "assets/images/members/shu.png" },
-				{ "name":"Joakim Forslund", "title": "Software Lead", "location": "Sweden", "imageUrl": "assets/images/members/vookungdoofu.png" },
-				{ "name":"José Peña", "title": "Thermal Lead", "location": "Spain", "imageUrl": "assets/images/members/jos___jrockwar__200.jpg" },
-				{ "name":"Marek Gutt-Mostowy", "title": "Controls Lead", "location": "Poland", "imageUrl": "assets/images/members/marek_gutt-mostowy_m4rol__200.jpg" },
-				{ "name":"Adrian Kelly", "title": "Electrical Lead", "location": "USA", "imageUrl": "assets/images/members/adrian_electrical_lead.jpg" },
-				{ "name":"Richard P. Behiel", "title": "PR Lead", "location": "USA", "imageUrl": "assets/images/members/rbe.png" },
-				{ "name":"Ari Porad", "title": "IT Lead", "location": "USA", "imageUrl": "assets/images/members/apo.png" },
-				{ "name":"Henry McKay", "title": "Finance Lead", "location": "New Zealand", "imageUrl": "assets/images/members/henry_mckay_finance_200.jpg" },
-				{ "name":"Gregory Georgianna", "title": "Video Lead", "location": "USA", "imageUrl": "assets/images/members/gregory_video.jpg" },
-				{ "name":"Eoghan Kidney", "title": "Creative Media Lead", "location": "Ireland", "imageUrl": "assets/images/members/eoghan_creative_media.jpg" },
-				{ "name":"Paul Le Henaff", "title": "Game Development Lead", "location": "UK", "imageUrl": "assets/images/members/paul_game_dev.jpg" },
-				{ "name":"Jason Belzer", "title": "Business Development Lead", "location": "USA", "imageUrl": "assets/images/members/jason_business.jpg" },
-				{ "name":"Ashley Makay", "title": "Social Media Lead", "location": "Canada", "imageUrl": "assets/images/members/ashley_can.jpg" }
-			]
+			"members": require('./data/members.json')
 		},
 	    "press": {
-	      stories: require('./press.json'),
-	    }
+	    	"stories": require('./data/press.json')
+	    },
+		"sponsors":{
+			"sponsors":require('./data/sponsors.json')
+		}
 	}
 
 	return Object.assign({}, defaultContext, pagesContexts[pageName]);
