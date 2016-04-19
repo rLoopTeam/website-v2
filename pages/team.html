@@ -24,7 +24,7 @@
               </div>
               <div class="info">
                 <p>{{member.name}}</p>
-                <p><strong>{{member.title}},</strong> <i>{{member.location}}</i></p>
+                <p><strong>{{member.title}}{% if member.location != "" %},{% endif %}</strong> <i>{{member.location}}</i></p>
               </div>
             </div>
           {% else %}

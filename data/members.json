@@ -43,6 +43,6 @@
   { "name":"Nathaniel Thompson", "title": "Public Relations", "location": "", "imageUrl": "assets/images/members/nathaniel_thompson.png" },
   { "name":"Ralph Steenblik", "title": "Public Relations", "location": "", "imageUrl": "assets/images/members/ralph_steenblik.png" },
   { "name":"Matt Malcom", "title": "Public Relations", "location": "New Zealand", "imageUrl": "assets/images/members/matt_malcom.png" },
-  { "name":"Joseph Cirnigliaro", "title": "Electrical/Manufacturing", "location": "USA?", "imageUrl": "assets/images/members/joseph_cirnigliaro.png" },
+  { "name":"Joseph Cirnigliaro", "title": "Electrical/Manufacturing", "location": "USA", "imageUrl": "assets/images/members/joseph_cirnigliaro.png" },
   { "name":"Nick Pope", "title": "Manufacturing", "location": "USA", "imageUrl": "assets/images/members/nick_pope.png" }
 ]
