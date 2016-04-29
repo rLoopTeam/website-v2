@@ -483,7 +483,30 @@ a.text-normal {
     font-size: 130%;
 }
 
-.campaign-link:link, .campaign-link:visited {
+.popup-wrapper .popup .inner .join-link {
+    margin: 20px 0 15px 0;
+    font-size: 130%;
+}
+
+.join-link:link,
+.join-link:visited {
+    width:inherit;
+    background-color: red;
+    color: #fff;
+    border: 2px solid red;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.2s, color 0.2s;
+    transition-property: background-color, color;
+    transition-duration: 0.2s, 0.2s;
+    transition-timing-function: initial, initial;
+    transition-delay: initial, initial;
+}
+
+.campaign-link:link, 
+.campaign-link:visited {
     width:inherit;
     background-color: white;
     color: #42b2d4;
@@ -499,10 +522,19 @@ a.text-normal {
     transition-delay: initial, initial;
 }
 
-.campaign-link:hover, .campaign-link:active {
+.campaign-link:hover, 
+.campaign-link:active {
     width:inherit;
     background-color: #42b2d4;
     color: white;
+}
+
+.join-link:hover,
+.join-link:active{
+    width:inherit;
+    background-color: #fff;
+    color: red;
+    border: 2px solid red;
 }
 
 #popup-close-link {
