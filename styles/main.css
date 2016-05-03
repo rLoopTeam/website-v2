@@ -826,7 +826,7 @@ a.text-normal {
     padding: 30px 15% 30px 15%;
 }
 .member {
-  width: 400px;
+  width: 420px;
   min-height: 100px;
   margin-bottom: 20px;
   display: inline-block;
@@ -863,14 +863,15 @@ a.text-normal {
   font-size: 100%;
 }
 
-@media (max-width: 900px) {
+/*@media (max-width: 500px) {
   .member {
-    width: 45%;
+    width: 100%;
     min-height: 100px;
     display: inline-block;
     vertical-align: top;
   }
 }
+*/
 
 /*///////////////*/
 /* press */
