@@ -1,12 +1,25 @@
 [
   [{
+    "name": "bbc",
+    "title": "The tech helping us work together wherever we are",
+    "link": "http://www.bbc.com/news/business-36203300",
+    "color": "red",
+    "textCSS": "font-size: 150%;"
+  },
+  {
+    "name": "techinsider",
+    "title": "This sleek Hyperloop pod was designed by 300 strangers who met on Reddit",
+    "link": "http://www.techinsider.io/rloop-pod-designed-by-strangers-from-reddit-2016-5",
+    "color": "#55C9FF",
+    "textCSS": "font-weight: 600;"
+  },
+  {
     "name": "newswire",
     "title": "rLoop Announces Soylent Sponsorship of New Hyperloop Team",
     "link": "https://www.newswire.com/news/rloop-announces-soylent-sponsorship-of-new-hyperloop-team-9690657",
     "color": "#1357A8",
-    "textCSS": "font-size: 180%;"
-  }
-  ],
+    "textCSS": "color: #673C95; font-family: 'roboto_slab_light', Helvetica, Arial, sans-serif; font-size: 120%;"
+  }],
   [{
     "name": "forbes",
     "title": "Crowdsourcing the Hyperloop: How a Group of Redditors are Taking on Elon Musk's Challenge",
