@@ -1,0 +1,1 @@
+npm run build && surge build --domain rloop.org
