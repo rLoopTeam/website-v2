@@ -7,7 +7,10 @@ For now its just plain HTML, CSS and JS. We didn't know who was familiar with wh
 ## Setting up development environment
  - Install Node 4.x
  - Install Surge (optional)
- - `npm run dev` - Run the dev server for automatic template compiling
+ - Make sure you can call npm in a command line and see a response. If you don't, make sure the path to npm is added to the enironment variables
+ - `npm install` - Run the instalation script
+ - `npm run dev` - Run the dev server so that you can see your changes in real time
+ - View your changes here: `127.0.0.1:8080`
 
 
 ## Building the site
