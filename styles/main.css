@@ -974,6 +974,50 @@ a.text-normal {
 }
 
 /*///////////////*/
+/* sponsor */
+/*///////////////*/
+.content.sponsors {
+  margin: 40px 0 25px 0;
+  min-height: 52vh;
+}
+.sponsors-wrapper {
+  width: 850px;
+  margin: 0 auto auto;
+}
+.sponsors-wrapper .sponsor {
+  display: inline-block;
+
+}
+
+.sponsor {
+  width: 40%;
+  min-height: 200px;
+  margin: 0 40px;
+  float: left;
+  line-height: 190px;
+}
+.sponsor img {
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+
+}
+.sponsor a {
+  vertical-align: middle;
+}
+.major-sponsor {
+  width: 40%;
+  padding: 0 100px 0 100px;
+  margin: 0 auto auto;
+}
+.sponsors-thank {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 50px 0 80px 0;
+  font-family: 'roboto_slab_light', Helvetica, Arial, sans-serif;
+}
+
+/*///////////////*/
 /* footer */
 /*/////////////////*/
 .footer{
