@@ -1024,6 +1024,13 @@ a.text-normal {
   font-family: 'roboto_slab_light', Helvetica, Arial, sans-serif;
 }
 
+/*///////////////*/
+/* Store */
+/*/////////////////*/
+.store-wrapper {
+  min-height: 50vh;
+  margin: 30px 0;
+}
 
 /*///////////////*/
 /* footer */
