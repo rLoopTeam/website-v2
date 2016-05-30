@@ -1,5 +1,12 @@
 [
   [{
+    "name": "irish_times",
+    "title": "Hyper-speed travel could be just around the corner",
+    "link": "http://www.irishtimes.com/news/science/hyper-speed-travel-could-be-just-around-the-corner-1.2653662",
+    "color": "grey",
+    "textCSS": "font-size: 180%; font-family: 'roboto_slab_light', Helvetica, Arial, sans-serif;"
+  }],
+  [{
     "name": "bbc",
     "title": "The tech helping us work together wherever we are",
     "link": "http://www.bbc.com/news/business-36203300",
