@@ -63,6 +63,15 @@ input.list-button {cursor: pointer;}
   font-weight: bold;
 }
 
+/* parallax effect*/
+.parallax-wrapper {
+  /*perspective: 10px; */
+}
+.parallax-wrapper .top-subheader.parallax-background-effect {
+  background-attachment: fixed;
+/*  transform: translateY(-180px) translateZ(-1px) scale(1.2);
+  z-index: 1000;*/
+}
 
 /* header */
 
@@ -123,7 +132,7 @@ input.list-button {cursor: pointer;}
 }
 
 /* hamburger-menu, this needs some reworking to look good */
-@media (max-width: 840px) {
+@media (max-width: 1100px) {
   .navbar{
     right: 5%;
     display: none;
@@ -195,13 +204,15 @@ input.list-button {cursor: pointer;}
   background: url('../assets/images/shutterstock_90095539.jpg');
   background-position: 50% 25%;
   background-size: cover !important;
+  background-attachment: fixed;
 }
 
 .hyperloop .top-subheader{
   background: url('../assets/images/TheHyperloop.jpg');
-  background-position: 55% 25%;
-  -webkit-background-size: contain;
-  background-size: contain;
+  background-position: 55% 5%;
+  /*-webkit-background-size: contain;
+  background-size: contain;*/
+  background-size: 60%;
 }
 
 .press .top-subheader {
@@ -211,7 +222,7 @@ input.list-button {cursor: pointer;}
 
 .team .top-subheader {
   background-color: black;
-  background: url('../assets/images/rloop-group.jpg') 0 20%;;
+  background: url('../assets/images/rloop-group.jpg') 50% 20%;;
   background-size: cover !important;
 }
 
@@ -228,6 +239,7 @@ input.list-button {cursor: pointer;}
   .front-page .top-subheader {
       background: url('../assets/images/shutterstock_90095539.jpg');
       background-position: 50% 30%;
+      background-attachment: fixed;
   }
 }
 
@@ -629,6 +641,12 @@ a.text-normal {
 }
 
 @media (max-width: 900px) {
+
+  .hyperloop .top-subheader{
+    background: url('../assets/images/TheHyperloop.jpg');
+    background-position: 55% 10%;
+    background-size: 80%;
+  }
   .front-page .megatext {
     padding-left: 0;
     padding-right: 0;
