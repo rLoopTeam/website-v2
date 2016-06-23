@@ -10,7 +10,8 @@
       "name":"soylent",
       "imageUrl":"assets/images/sponsors/soylentlarge.jpg",
       "bio":"SoylentTM is a pioneer in food technology, delivering nutritionally-complete staple meals that provide all the essential nutrients required to fuel the human body. Soylent is produced with sustainability and efficiency in mind to create a convenient, nutritious, and affordable meal that is better for our health and the environment. CEO/Co- founder Rob Rhinehart, alongside fellow co-founders COO Matt Cauble, CTO John Coogan, and CMO David Renteln, developed Soylent after recognizing the need for a simpler, more efficient food source. The company is headquartered in Los Angeles, CA.",
-      "link":"http://www.soylent.com/"
+      "link":"http://www.soylent.com/",
+      "major":true
     },
     {
       "name":"R Systems",
