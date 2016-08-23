@@ -880,6 +880,7 @@ a.text-normal {
   float: left;
   margin-top: 15px;
   margin-left: 5px;
+  max-width: 300px;
 }
 .team .member .info p{
   text-align: left;
