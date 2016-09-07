@@ -19,7 +19,7 @@
   { "name":"Matthew Marshall", "title": "Finance Lead", "location": "Canada", "imageUrl": "assets/images/members/matthew_marshall.png" },
   { "name":"Gregory Georgianna", "title": "Video Lead", "location": "USA", "imageUrl": "assets/images/members/gregory_video.jpg" },
   { "name":"Eoghan Kidney", "title": "Creative Media Lead", "location": "Ireland", "imageUrl": "assets/images/members/eoghan_creative_media.jpg" },
-  { "name":"Paul Le Henaff", "title": "Web and Game Development Lead", "location": "UK", "imageUrl": "assets/images/members/paul_game_dev.jpg" },
+  { "name":"Paul Le Henaff", "title": "Web Development Lead/Software", "location": "UK", "imageUrl": "assets/images/members/paul_game_dev.jpg" },
   { "name":"Jason Belzer", "title": "Business Development Lead", "location": "USA", "imageUrl": "assets/images/members/jason_business.jpg" },
   { "name":"Rebecca Zhuo", "title": "Public Relations and Human Resources", "location": "USA", "imageUrl": "assets/images/members/rebecca.jpg" },
   { "name":"Joakim Forslund", "title": "Software", "location": "Sweden", "imageUrl": "assets/images/members/vookungdoofu.png" },
