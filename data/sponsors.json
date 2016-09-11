@@ -48,7 +48,17 @@
       "imageUrl":"assets/images/sponsors/autodesk.jpg",
       "bio":"Fusion 360 is a cloud-based CAD/CAM tool for collaborative product development. Fusion 360 combines very fast and easy organic modeling with precise solid modeling, allowing you to make your designs manufacturable. Communicate your designs with renderings and drawings, then use its CAM capabilities to quickly generate toolpaths for CNC machines, or send your design to a 3D printer for rapid prototyping. Your data is kept safe and secure on the cloud, with unlimited storage and access.",
       "link":"http://www.autodesk.co.uk/"
+    },
+    {
+      "name":"Regalix",
+      "imageUrl":"assets/images/sponsors/regalix-new-logp.png",
+      "bio":"Regalix as a digital marketing company creates value and revenue growth with cutting edge marketing techniques and innovation models.",
+      "link":"http://www.regalix.com/"
+    },
+    {
+      "name":"IPS",
+      "imageUrl":"assets/images/sponsors/ips_logo.jpg",
+      "bio":"Manufacture, design and development of power supply systems – DC power systems, Inverters, Converters, UPS. Special developments in the field of telecommunications, solar, military.",
+      "link":"http://www.ips-group.net/en"
     }
-    
-    
 ]
