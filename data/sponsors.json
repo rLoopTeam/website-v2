@@ -60,5 +60,11 @@
       "imageUrl":"assets/images/sponsors/ips_logo.jpg",
       "bio":"Manufacture, design and development of power supply systems – DC power systems, Inverters, Converters, UPS. Special developments in the field of telecommunications, solar, military.",
       "link":"http://www.ips-group.net/en"
+    },
+    {
+      "name":"Coast Metal Cutting",
+      "imageUrl":"assets/images/sponsors/Coastmetal.png",
+      "bio":"COAST METAL CUTTING offers a complete machining and metal cutting service. Their extensive range of equipment allows them to precision cut massive to miniature parts. Their areas of expertise include, but not limiting to: BAR, TUBING or PLATE-STRIP CUTOFF, PRECISION BAR CUTOFF, PLATE CUTTING, and PRECISION ABRASIVE CUTTING AND CHOP-SAWING.",
+      "link":"http://www.coastmetal.com/"
     }
 ]
