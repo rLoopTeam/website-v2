@@ -635,7 +635,7 @@ a.text-normal {
 .front-page .megatext {
   padding-left: 0;
   padding-right: 0;
-  font-size: 600%;
+  font-size: 400%;
 }
 
 @media (max-width: 1500px) {
@@ -666,7 +666,7 @@ a.text-normal {
   .front-page .megatext {
     padding-left: 0;
     padding-right: 0;
-    font-size: 400%;
+    font-size: 320%;
   }
   .front-page .content.text {
       max-width: 1200px;
