@@ -32,7 +32,8 @@ function getContext (pageName) {
 	    	"stories": require('./data/press.json')
 	    },
 		"sponsors":{
-			"sponsors":require('./data/sponsors.json')
+			"sponsors":require('./data/sponsors.json'),
+			"individualSponsors":require('./data/individualSponsors.json'),
 		}
 	}
 

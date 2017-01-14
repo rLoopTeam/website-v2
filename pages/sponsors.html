@@ -15,6 +15,26 @@
             </div>
             {% endfor %}
         </div>
+        <div class="sponsors-wrapper" >
+            <div class="sponsors-thank">And thank you to our individual sponsors!</div>
+            <div class="row">
+                <div class="individual-sponsor-column-third">
+                    {% for sponsor in individualSponsors.column1 %}
+                        <p>{{sponsor}}</p>
+                    {% endfor %}
+                </div>
+                <div class="individual-sponsor-column-third">
+                    {% for sponsor in individualSponsors.column2 %}
+                        <p>{{sponsor}}</p>
+                    {% endfor %}
+                </div>
+                <div class="individual-sponsor-column-third">
+                    {% for sponsor in individualSponsors.column3 %}
+                        <p>{{sponsor}}</p>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 {% endblock %}
