@@ -15,9 +15,6 @@
          only. Must be all lowercase, and correspont to a .png file in
          assets/images. (ex. 'verge' => 'assets/images/verge.png', 'motherboard'.)
  # title: The title of the article.
- # textCSS: any valid css, will be applied to the title. Usually this includes
- #          `color` and `font-family`, but also sometimes `font-size` and
- #          `font-weight` are used.
  #}
 
 {% block main %}
@@ -25,13 +22,13 @@
   {% for row in stories %}
     {% set width = 90 / row.length %}
     {% for story in row %}
-      <div class="report" style="border-color: {{ story.color }}; width: {{ width }}%">
+      <div class="report" style="border-color: {{ story.color }};">
         <a href="{{ story.link }}" target="_blank">
           <div class="logo">
             <img src="../assets/images/{{ story.name }}.png">
           </div>
           <div class="text">
-            <p style="{{ story.textCSS }}">{{ story.title }}</p>
+            <p class="title">{{ story.title }}</p>
           </div>
         </a>
       </div>

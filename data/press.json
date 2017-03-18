@@ -3,50 +3,43 @@
     "name": "engineering_com",
     "title": "rLoop Uses Fusion 360 to Become a Finalist in SpaceX’s Hyperloop Pod Competition",
     "link": "http://www.engineering.com/DesignSoftware/DesignSoftwareArticles/ArticleID/13149/rLoop-Uses-Fusion-360-to-Become-a-Finalist-in-SpaceXs-Hyperloop-Pod-Competition.aspx",
-    "color": "#252429",
-    "textCSS": "font-weight: 600;"
+    "color": "#252429"
   },
   {
     "name": "irish_times",
     "title": "Hyper-speed travel could be just around the corner",
     "link": "http://www.irishtimes.com/news/science/hyper-speed-travel-could-be-just-around-the-corner-1.2653662",
-    "color": "grey",
-    "textCSS": "font-size: 180%; font-family: 'roboto_slab_light', Helvetica, Arial, sans-serif;"
+    "color": "grey"
   }],
   [{
     "name": "bbc",
     "title": "The tech helping us work together wherever we are",
     "link": "http://www.bbc.com/news/business-36203300",
-    "color": "red",
-    "textCSS": "font-size: 150%;"
+    "color": "red"
   },
   {
     "name": "techinsider",
     "title": "This sleek Hyperloop pod was designed by 300 strangers who met on Reddit",
     "link": "http://www.techinsider.io/rloop-pod-designed-by-strangers-from-reddit-2016-5",
-    "color": "#55C9FF",
-    "textCSS": "font-weight: 600;"
+    "color": "#55C9FF"
   },
   {
     "name": "newswire",
     "title": "rLoop Announces Soylent Sponsorship of New Hyperloop Team",
     "link": "https://www.newswire.com/news/rloop-announces-soylent-sponsorship-of-new-hyperloop-team-9690657",
-    "color": "#1357A8",
-    "textCSS": "color: #673C95; font-family: 'roboto_slab_light', Helvetica, Arial, sans-serif; font-size: 120%;"
+    "color": "#1357A8"
   }],
   [{
     "name": "forbes",
     "title": "Crowdsourcing the Hyperloop: How a Group of Redditors are Taking on Elon Musk's Challenge",
     "link": "http://www.forbes.com/sites/jasonbelzer/2016/03/07/crowdsourcing-the-hyperloop-how-a-group-of-redditors-are-taking-on-elon-musk/#5e3bc7421de8",
-    "color": "#4A4A4A",
-    "textCSS": "font-family: 'roboto_slab_light', Helvetica, Arial, sans-serif; font-size: 170%;"
+    "color": "#4A4A4A"
   },
     {
       "name": "10xlabs",
       "title": "Hyperloop Makers Interview - rLoop, Founded Upon the Internet",
       "link": "https://soundcloud.com/10xlabs/hyperloop-makers-interview-rloop",
-      "color": "#015770",
-      "textCSS": "color: black; font-family: 'open_sans_bold', Helvetica, Arial, sans-serif; font-weight: 900; font-size: 130%;"
+      "color": "#015770"
     }
   ],
   [
@@ -54,22 +47,19 @@
       "name": "intheloop",
       "title": "rLoop Interview with Brent and Tom",
       "link": "https://www.youtube.com/watch?v=CyGA4ZRl2jQ",
-      "color": "#000000",
-      "textCSS": ""
+      "color": "#000000"
     },
     {
       "name": "techstuffed",
       "title": "Q&A with rLoop Project Manager Brent Lessard",
       "link": "http://www.techstuffed.com/qa-rloop-project-manager-brent-lessard-pods-hyperloop-future/",
-      "color": "#4CB8FF",
-      "textCSS": ""
+      "color": "#4CB8FF"
     },
     {
       "name": "techau",
       "title": "Help Fund the Future of Transport, rLoop Hyperloop Pod Hits IndieGoGo",
       "link": "http://techau.com.au/help-fund-the-future-of-transport-rloop-hyperloop-pod-hits-indiegogo/",
-      "color": "#213599",
-      "textCSS": "font-family: 'roboto_slab_bold', Helvetica, Arial, sans-serif; font-size: 90%; font-weight: 900;"
+      "color": "#213599"
     }
   ],
   [
@@ -77,15 +67,13 @@
       "name": "motherboard",
       "title": "Meet the Redditors Who Designed a Hyperloop Pod",
       "link": "http://motherboard.vice.com/en_ca/read/meet-the-redditors-who-designed-a-hyperloop-pod",
-      "color": "#000000",
-      "textCSS": "color: black; font-family: 'open_sans_bold', Helvetica, Arial, sans-serif; font-weight: 900; font-size: 130%;"
+      "color": "#000000"
     },
     {
       "name": "verge",
       "title": "How to build a Hyperloop",
       "link": "http://www.theverge.com/2016/2/3/10904424/hyperloop-design-competition-report-texas-elon-musk",
-      "color": "#FF5020",
-      "textCSS": "font-family: 'roboto_slab_light', Helvetica, Arial, sans-serif; font-size: 170%;"
+      "color": "#FF5020"
     }
   ],
   [
@@ -93,22 +81,19 @@
       "name": "fortune",
       "title": "\"... and one non-university team organized through online forum Reddit, advanced through the first phase of the competition and will test their pods this summer ...\"",
       "link": "http://fortune.com/2016/01/31/mit-wins-hyperloop-competition-and-elon-musk-drops-in",
-      "color": "#000000",
-      "textCSS": "font-family: 'roboto_slab_bold', Helvetica, Arial, sans-serif; font-size: 90%; font-weight: 900;"
+      "color": "#000000"
     },
     {
       "name": "psfk",
       "title": "rLoop: We Are Pushing the Limits of the Open Source, Online Think Tank Model",
       "link": "http://www.psfk.com/2016/02/rloop-open-source-online-think-tank-model-hyperloop-spacex-design-weekend-winners.html",
-      "color": "#673C95",
-      "textCSS": "color: #673C95; font-family: 'roboto_slab_light', Helvetica, Arial, sans-serif; font-size: 120%;"
+      "color": "#673C95"
     },
     {
       "name": "electrek",
       "title": "Elon Musk on the Hyperloop: “I’m starting to think this is really going to happen.” – MIT and Reddit won the SpaceX Hyperloop Pod Design Competition",
       "link": "http://electrek.co/2016/02/01/hyperloop-mit-reddit-pod-competition/",
-      "color": "#C7EDFA",
-      "textCSS": ""
+      "color": "#C7EDFA"
     }
   ],
   [
@@ -116,15 +101,13 @@
       "name": "tnt",
       "title": "A crowd sourced team from Reddit took the highest honor for Non-Student Team.",
       "link": "https://youtu.be/7R-_HtFXZ4k?t=26m2s",
-      "color": "#000000",
-      "textCSS": ""
+      "color": "#000000"
     },
     {
       "name": "autoevolution",
       "title": "rLoop Is the Latest Team Hellbent on Making Hyperloop a Reality",
       "link": "http://www.autoevolution.com/news/rloop-is-the-latest-team-hellbent-on-making-hyperloop-a-reality-104353.html",
-      "color": "#000000",
-      "textCSS": "font-family: 'open_sans_bold', Helvetica, Arial, sans-serif; font-weight: 900; font-size: 130%;"
+      "color": "#000000"
     }
   ],
   [
@@ -132,22 +115,19 @@
       "name": "electrek",
       "title": "Reddit came together and created an Hyperloop pod design to help kickstart Elon Musk’s “fifth mode of transportation”",
       "link": "http://electrek.co/2016/01/29/reddit-hyperloop-pod-design-spacex/",
-      "color": "#C7EDFA",
-      "textCSS": ""
+      "color": "#C7EDFA"
     },
     {
       "name": "psfk",
       "title": "How to build a Hyperloop",
       "link": "http://www.psfk.com/2015/08/hyperloop-competition-spacex-rloop-reddit.html",
-      "color": "#673C95",
-      "textCSS": "color: #673C95; font-family: 'roboto_slab_light', Helvetica, Arial, sans-serif; font-size: 120%;"
+      "color": "#673C95"
     },
     {
       "name": "joestrandell",
       "title": "A Conversation About Hyperloop",
       "link": "https://youtu.be/KYWwiL6h_nA",
-      "color": "#000000",
-      "textCSS": ""
+      "color": "#000000"
     }
   ]
 ]

@@ -16,11 +16,9 @@ Math.easeInOutQuad = function (t, b, c, d) {
 
 window.onload = function() {
 
-	var frontpageButton = document.querySelector("#front-down-page-arrow")
-		closebutton = document.getElementById("popup-close-link");
+	var frontpageButton = document.querySelector("#front-down-page-arrow");
 
-
-	if(frontpageButton) {
+	if (frontpageButton) {
 		frontpageButton.addEventListener("click",function () {
 			var pageHeight 	= window.innerHeight;
 			var newPos 		= document.documentElement.scrollTop || document.body.parentNode.scrollTop || document.body.scrollTop;
@@ -54,20 +52,6 @@ window.onload = function() {
 
 				step++;
 			}
-		},false);
-	}
-
-	// document.getElementById('campaign-popup').onclick = function(e) {
-	//     if(e.target != document.getElementById('content-area')) {
-	//         document.getElementById('content-area').innerHTML = 'You clicked outside.';          
-	//     } else {
-	//         document.getElementById('content-area').innerHTML = 'Display Contents';   
-	//     }
-	// }
-
-	if(closebutton) {
-		closebutton.addEventListener("click",function(e){
-		    closebutton.parentElement.parentElement.parentElement.parentElement.style.display = 'none'; 
 		},false);
 	}
 }
